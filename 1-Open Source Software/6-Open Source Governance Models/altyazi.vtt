@@ -1,0 +1,208 @@
+WEBVTT
+
+1
+00:00:00.850 --> 00:00:03.780
+Açık kaynak kodlu bir yazılım olsa da olmasa da, herhangi bir proje için 
+
+2
+00:00:03.780 --> 00:00:09.001
+bir organizasyon yöntemi ya da bir yönetim modeli dediğimiz şey gerekir.
+
+3
+00:00:11.060 --> 00:00:15.260
+Bu, kararların nasıl alındığı
+
+00:00:15.260 --> 00:00:19.419
+Bu da sürdürülebilir ve verimli bir şekilde kurulması için dikkatli düşünmeyi gerektirir.
+
+5
+00:00:20.780 --> 00:00:26.160
+Birisinin katkıda bulunup bulunamayacağına veya yalnızca birkaç kişinin 
+
+6
+00:00:26.160 --> 00:00:31.380
+kararların demokratik olarak mı yoksa net bir merkezi otorite tarafından mı alınacağına 
+
+7
+00:00:31.380 --> 00:00:35.814
+ve serbest bırakılmadan önce planların ve tartışmaların kamuya açıklanıp açıklanmayacağı ya da 
+
+8
+00:00:35.814 --> 00:00:38.572
+gerçekten vahşi doğada ortaya konması veya
+
+9
+00:00:38.572 --> 00:00:42.448
+bu parametreler için hangi seçimlerin yapıldığına bakılmaksızın bir proje hala 
+
+10
+00:00:42.448 --> 00:00:44.220
+açık kaynak olabilir.
+
+11
+00:00:44.220 --> 00:00:48.160
+Ancak bu parametreler yönetim modelinizin ne olduğunu belirler.
+
+12
+00:00:49.560 --> 00:00:54.620
+Şu an, bir model çoğunlukla kapalı olan şirket liderliğindeki süreçtir.
+
+13
+00:00:54.620 --> 00:00:57.520
+Ancak son sürüm tamamen açık kaynaktır.
+
+14
+00:00:57.520 --> 00:01:03.670
+Böylece,bir işletme yazılım tasarımını, geliştirilmesini ve yayımlanmasını kontrol edecektir.
+
+15
+00:01:03.670 --> 00:01:08.390
+Dış katkılar, görüşler ve incelemeler olabilir,
+
+16
+00:01:08.390 --> 00:01:13.000
+ancak şirketin bunları hesaba katması gerekmez.
+
+17
+00:01:14.080 --> 00:01:17.400
+Planlar ve sürüm tarihleri açıkça tanımlanabilir veya
+
+18
+00:01:17.400 --> 00:01:22.290
+önceden kapalı olarak tartışılabilir ve kapalı tutulabilir.
+
+19
+00:01:22.290 --> 00:01:26.345
+Ve içsel tartışmalara ve alınan kararlara ilişkin 
+
+20
+00:01:26.345 --> 00:01:28.260
+bir pencereniz olmayabilir.
+
+21
+00:01:28.260 --> 00:01:32.040
+Ancak, yazılım bir kez piyasaya sürüldüğünde, tamamen açık durumdadır. 
+
+22
+00:01:32.040 --> 00:01:36.924
+ Google Android çok güzel bir örnek, kaynağı tamamen açık 
+
+23
+00:01:36.924 --> 00:01:41.587
+ama yayınlanmadan önce çok az şey bildirir.
+
+24
+00:01:44.222 --> 00:01:49.122
+Yardımsever diktatörlük modeli güçlü bir liderliğe sahiptir,
+
+25
+00:01:49.122 --> 00:01:53.480
+nihai kararları veren ve baskın etkisi olan bir bireydir.
+
+26
+00:01:53.480 --> 00:01:56.580
+Bunun işe yarayıp yaramayacağı diktatörün bilgeliğinin yanı sıra 
+
+27
+00:01:56.580 --> 00:02:00.249
+sürecin gerçek kabiliyetine ve yönetimine bağlıdır.
+
+28
+00:02:01.570 --> 00:02:06.250
+Rol genellikle sosyal ve politiktir ve gerçekten yapısal değildir,
+
+29
+00:02:06.250 --> 00:02:10.540
+özellikle Git'i revizyon kontrol sistemi olarak kullanıyorlarsa.
+
+30
+00:02:10.540 --> 00:02:14.670
+İşler geliştikçe ve daha büyük boyutlara ulaştıkça, bakımcılar
+
+31
+00:02:14.670 --> 00:02:17.490
+daha az kod yazma eğiliminde olacaklardır ve çoğunlukla gözden geçirirler.
+
+32
+00:02:18.690 --> 00:02:22.640
+Güçlü bir liderlik modeline sahip olmanın bir avantajı,
+
+33
+00:02:22.640 --> 00:02:28.650
+sözde diktatörün takdirine bağlı olarak sonsuz tartışmaların sonlandırılabilmesidir.
+
+34
+00:02:30.070 --> 00:02:33.720
+Burada diktatör kelimesinin mutlaka olumsuz yönde ifade edilmediğini,
+
+35
+00:02:33.720 --> 00:02:37.210
+sadece güçlü bir lider anlamına geldiğini belirtmek isterim.
+
+36
+00:02:37.210 --> 00:02:41.690
+Elbette en belirgin örnek Linus Torvalds'ın liderliğindeki Linux çekirdeği,
+
+37
+00:02:41.690 --> 00:02:43.610
+Wikipedia ise başka bir örnek.
+
+38
+00:02:45.920 --> 00:02:50.538
+Yönetim kurulu ile sık kontrol sağlayan küçük gruplarda 
+
+39
+00:02:50.538 --> 00:02:53.688
+tamamen açık bir sürece sahip olabilirsiniz.
+
+40
+00:02:53.688 --> 00:03:00.723
+Tüm tartışmalar, e-posta listelerinde, sohbetlerde veya başka herhangi bir biçimde açık olarak yapılır.
+
+41
+00:03:00.723 --> 00:03:04.199
+Ve kimin katkı sağladığı, yamanın nasıl kabul edildiği,
+
+42
+00:03:04.199 --> 00:03:07.950
+yeni yazılımın kabul edilmesi hakkındaki kararlar bu yönetim organı tarafından alınmaktadır.
+
+43
+00:03:07.950 --> 00:03:10.570
+Yönetim yapılarında çok gevşekten çok sıkıya kadar,
+
+44
+00:03:10.570 --> 00:03:12.630
+fazlaca çeşitlilik var.
+
+45
+00:03:12.630 --> 00:03:17.280
+Demokratik oylar, uzlaşma vb.
+
+46
+00:03:17.280 --> 00:03:19.833
+Daha az sürüm alma eğiliminde olursunuz, ancak
+
+47
+00:03:19.833 --> 00:03:23.420
+genelde çok iyi hata ayıklanması (debug) beklenir. 
+
+48
+00:03:23.420 --> 00:03:27.468
+Öne çıkan örnekler FreeBSD işletim sistemi veya
+
+49
+00:03:27.468 --> 00:03:30.477
+Debian Linux dağıtımıdır.
+
+50
+00:03:30.477 --> 00:03:34.211
+Bu, açık kaynaklı yazılım projeleri tarafından kullanılan bazı yönetişim modellerinin
+
+51
+00:03:34.211 --> 00:03:36.706
+Kısa bir incelemesidir.
+
+52
+00:03:36.706 --> 00:03:39.970
+Seçtiğiniz şey ihtiyaç ve hedeflerinize bağlı olacaktır.

@@ -1,0 +1,265 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.320
+So, welcome to the Linux Foundation's introduction
+
+2
+00:00:07.320 --> 00:00:11.955
+to "Open Source Software Development, Linux and Git" Specialization.
+
+3
+00:00:11.955 --> 00:00:13.980
+My name is Jerry Cooperstein,
+
+4
+00:00:13.980 --> 00:00:17.600
+and I am the Training Program Director at The Linux Foundation.
+
+5
+00:00:17.600 --> 00:00:20.880
+I won't say much about myself, other than to say that I am,
+
+6
+00:00:20.880 --> 00:00:23.550
+by training, a theoretical nuclear physicist.
+
+7
+00:00:23.550 --> 00:00:27.260
+I've worked with computers as far back as the 1960s,
+
+8
+00:00:27.260 --> 00:00:32.230
+and I helped set up the training program at The Linux Foundation back in 2009.
+
+9
+00:00:32.230 --> 00:00:35.230
+Today, we have grown to a rather large program,
+
+10
+00:00:35.230 --> 00:00:39.579
+with a large catalog of courses, both of the instructor-led variety,
+
+11
+00:00:39.579 --> 00:00:44.615
+virtual courses over the Internet as well, and as well as many e-learning courses.
+
+12
+00:00:44.615 --> 00:00:50.515
+The Linux Foundation itself is a nonprofit organization that was founded in 2000,
+
+13
+00:00:50.515 --> 00:00:54.450
+and it's the home of Linux creator Linus Torvalds.
+
+14
+00:00:54.450 --> 00:00:57.440
+Ever since then, it has provided a neutral environment where
+
+15
+00:00:57.440 --> 00:01:00.960
+Linux kernel development could be protected and accelerated.
+
+16
+00:01:00.960 --> 00:01:03.680
+Linux's success catalyzed the growth of
+
+17
+00:01:03.680 --> 00:01:08.770
+the open source community and demonstrated the commercial efficacy of open source.
+
+18
+00:01:08.770 --> 00:01:11.000
+It has sparked countless new projects across
+
+19
+00:01:11.000 --> 00:01:14.790
+all industries and levels of the world's technology infrastructure.
+
+20
+00:01:14.790 --> 00:01:18.770
+Today, The Linux Foundation's work extends far beyond Linux,
+
+21
+00:01:18.770 --> 00:01:22.455
+fostering innovation at every technology layer.
+
+22
+00:01:22.455 --> 00:01:26.120
+We partner with the world's leading developers and companies to solve
+
+23
+00:01:26.120 --> 00:01:28.790
+the most challenging technology problems and
+
+24
+00:01:28.790 --> 00:01:32.630
+accelerate open technology development and commercial adoption.
+
+25
+00:01:32.630 --> 00:01:38.135
+Our mission is to provide experience and expertise to any initiative working to solve
+
+26
+00:01:38.135 --> 00:01:41.545
+complex problems through open source collaboration,
+
+27
+00:01:41.545 --> 00:01:45.050
+supplying the tools to scale open source projects.
+
+28
+00:01:45.050 --> 00:01:49.125
+This includes bolstering security, best practices, governance,
+
+29
+00:01:49.125 --> 00:01:51.680
+operations and ecosystem development,
+
+30
+00:01:51.680 --> 00:01:53.720
+and training such as this course.
+
+31
+00:01:53.720 --> 00:01:58.760
+By doing so, The Linux Foundation has become the umbrella organization for
+
+32
+00:01:58.760 --> 00:02:04.285
+many critical open source projects that power corporations across all industry sectors.
+
+33
+00:02:04.285 --> 00:02:07.040
+The introduction to "Open Source Software
+
+34
+00:02:07.040 --> 00:02:10.700
+Development, Linux and Git" Specialization was created to
+
+35
+00:02:10.700 --> 00:02:13.910
+provide you with a strong foundation for working
+
+36
+00:02:13.910 --> 00:02:17.995
+comfortably and productively in open source development communities,
+
+37
+00:02:17.995 --> 00:02:21.980
+a better understanding of the Linux environment, as well as methods and tools
+
+38
+00:02:21.980 --> 00:02:26.060
+required to successfully use it and supply training on using Git,
+
+39
+00:02:26.060 --> 00:02:28.795
+the distributed version control system.
+
+40
+00:02:28.795 --> 00:02:32.330
+This Specialization is aimed at computer users and
+
+41
+00:02:32.330 --> 00:02:36.815
+developers already possessing experience with another operating system.
+
+42
+00:02:36.815 --> 00:02:39.410
+But who have a more limited knowledge of working in
+
+43
+00:02:39.410 --> 00:02:42.130
+a Linux environment, as well as at Linux
+
+44
+00:02:42.130 --> 00:02:45.535
+users seeking to gain a good working grasp with Git.
+
+45
+00:02:45.535 --> 00:02:49.705
+The Specialization has been divided into four courses.
+
+46
+00:02:49.705 --> 00:02:53.810
+The first is "Open Source Software Development Methods".
+
+47
+00:02:53.810 --> 00:02:56.250
+The second is "Linux for Developers".
+
+48
+00:02:56.250 --> 00:02:58.960
+The third is "Linux Tools for Developers".
+
+49
+00:02:58.960 --> 00:03:02.515
+And the fourth is "Using Git for Distributed Development".
+
+50
+00:03:02.515 --> 00:03:05.390
+Each course uses several methods to present and
+
+51
+00:03:05.390 --> 00:03:09.700
+solidify the learning material, including videos, readings,
+
+52
+00:03:09.700 --> 00:03:13.865
+examples, external resources, lab exercises,
+
+53
+00:03:13.865 --> 00:03:17.960
+graded and ungraded assessments and discussions, etc.
+
+54
+00:03:17.960 --> 00:03:22.310
+To complete the Specialization and to earn your Specialization certificate,
+
+55
+00:03:22.310 --> 00:03:25.665
+you will need to finish all four courses,
+
+56
+00:03:25.665 --> 00:03:28.390
+obtain a course certificate for each course in
+
+57
+00:03:28.390 --> 00:03:31.885
+the Specialization and pay for the Specialization.
+
+58
+00:03:31.885 --> 00:03:35.385
+Please note there is no "capstone project".
+
+59
+00:03:35.385 --> 00:03:38.110
+Instead, your newly acquired knowledge and skills will be
+
+60
+00:03:38.110 --> 00:03:41.815
+assessed based on the graded assignments you submit in each course.
+
+61
+00:03:41.815 --> 00:03:45.730
+It's required that you pass all of the graded assignments to successfully
+
+62
+00:03:45.730 --> 00:03:50.725
+complete the individual courses, as well as the entire Specialization.
+
+63
+00:03:50.725 --> 00:03:54.860
+To learn more about Coursera Specialization requirements,
+
+64
+00:03:54.860 --> 00:04:00.075
+please click on the link provided below this video in the "Downloads" section.
+
+65
+00:04:00.075 --> 00:04:03.190
+We're excited to have you in this class,
+
+66
+00:04:03.190 --> 00:04:09.620
+and we look forward to your contributions to the learning community. Thank you.

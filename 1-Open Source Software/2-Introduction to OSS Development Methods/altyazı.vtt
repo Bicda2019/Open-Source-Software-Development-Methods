@@ -1,0 +1,97 @@
+
+
+1
+00:00:04.010 --> 00:00:06.990
+Eğitimimizin ilk kursuna 
+
+2
+00:00:06.990 --> 00:00:10.095
+"Açık Kaynak Geliştirme Yöntemleri" kursuna hoş geldiniz.
+
+3
+00:00:10.095 --> 00:00:13.320
+Burada, açık kaynaklı yazılımın ne olduğunu tanımlamak istiyoruz,
+
+4
+00:00:13.320 --> 00:00:15.870
+açık kaynaklı yazılımın tarihinden ve 
+
+5
+00:00:15.870 --> 00:00:18.210
+on yıllardır dünyanın teknoloji altyapısına
+
+6
+00:00:18.210 --> 00:00:21.725
+ne gibi faydalar sağladığından bahsedeceğiz.
+
+7
+00:00:21.725 --> 00:00:26.145
+Size açık kaynaklı projelerde verimli bir şekilde çalışmayı,
+
+8
+00:00:26.145 --> 00:00:27.420
+başkalarıyla çalışabilmeyi ve
+
+9
+00:00:27.420 --> 00:00:29.940
+bundan çok fazla fayda elde edebilmeyi
+
+10
+00:00:29.940 --> 00:00:31.680
+ve OSS'in avantajlarını öğretmek istiyoruz.
+
+11
+00:00:31.680 --> 00:00:35.070
+Mevcut olan farklı lisanslama modellerini tartışmak ve [projeniz için],
+
+12
+00:00:35.070 --> 00:00:37.710
+en iyi lisansın ne olduğuna karar vermenize yardımcı olmak istiyoruz.
+
+13
+00:00:37.710 --> 00:00:40.745
+Sürekli Entegrasyon gibi sık kullanılan yöntemler,
+
+14
+00:00:40.745 --> 00:00:42.805
+GitHub ve diğer "hosting" sağlayıcılarının,
+
+15
+00:00:42.805 --> 00:00:44.780
+açık kaynaklı projeler için,
+
+16
+00:00:44.780 --> 00:00:46.279
+bir buluşma yeri olarak 
+
+17
+00:00:46.279 --> 00:00:50.805
+kullanılması hakkında konuşmak istiyoruz.
+
+18
+00:00:50.805 --> 00:00:53.935
+Size açık kaynaklı projelerden örnekler göstereceğiz.
+
+19
+00:00:53.935 --> 00:00:57.510
+Açık kaynaklı projelerde çeşitliliği (cinsel,kültürel..vb) teşvik edişimizi anlatacağız.
+
+20
+00:00:57.510 --> 00:00:59.925
+OSS konusunun her alanını konuşacagız.
+
+21
+00:00:59.925 --> 00:01:04.370
+Bu kursta uygulamalı alıştırmalar yapma ortamı olmayacak,
+
+22
+00:01:04.370 --> 00:01:06.545
+çoğunlukla konuları tartışacağız.
+
+23
+00:01:06.545 --> 00:01:08.840
+Ama eğitimin diğer kurslarında,
+
+24
+00:01:08.840 --> 00:01:15.180
+uygulamalı alıştırmalar yapacağız. Öyleyse başlayalım!
