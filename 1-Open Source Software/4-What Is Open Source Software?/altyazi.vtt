@@ -1,0 +1,125 @@
+
+
+1
+00:00:00.300 --> 00:00:05.369
+Bu kursun ilk kısmı açık kaynaklı yazılımla ilgilidir.
+
+2
+00:00:05.369 --> 00:00:10.720
+Yani, yapmamız gereken ilk şey, OSS teriminin ne anlama geldiğini konuşmaktır.
+
+3
+00:00:10.720 --> 00:00:14.025
+Aslında İnsanlar özgür(free) yazılımdan konuştular,
+
+4
+00:00:14.025 --> 00:00:15.685
+Oysaki İngilizce'de "free" kelimesi 
+
+5
+00:00:15.685 --> 00:00:19.850
+"ücretsiz(free)" ve "özgürlük(freedom)" olarak tamamen iki farklı anlama gelir.
+
+6
+00:00:19.850 --> 00:00:23.455
+Anlamlardan biri sınırsız ya da kontrol edilmeyendir,
+
+7
+00:00:23.455 --> 00:00:27.980
+konuşma özgürlüğünü ve dağıtma özgürlüğünü ifade etmek gibi.
+
+8
+00:00:27.980 --> 00:00:31.135
+diğeri bedelsiz ya da ödemesiz yani ücretsiz anlamına gelir,
+
+9
+00:00:31.135 --> 00:00:36.850
+"bedava bira" veya "ücretsiz numune" örneklerinde olduğu gibi.
+
+10
+00:00:37.290 --> 00:00:46.810
+Bu yüzden 1998'de insanlar, özgürlükten neyin kastedildiğini netleştirmek için açık kaynak terimini kullanmaya başladılar.
+
+11
+00:00:47.420 --> 00:00:50.300
+Açık kaynak yazılımınız varsa,
+
+12
+00:00:50.300 --> 00:00:53.510
+bu genellikle kullanılan lisansa saygı duyan 
+
+13
+00:00:53.510 --> 00:00:57.510
+herhangi birinin yazılımı inceleyebileceği anlamına gelir,
+
+14
+00:00:57.510 --> 00:01:01.180
+yazılımı inceler,  
+
+15
+00:01:01.180 --> 00:01:03.110
+değiştirir ve diğer kişilere yeniden dağıtır;
+
+16
+00:01:03.110 --> 00:01:08.940
+dağıtıklarının kim olduklarının veya tam olarak ne için kullanılacağının önemi yoktur.
+
+17
+00:01:09.100 --> 00:01:13.280
+İki temel lisans sınıflandırması vardır.
+
+18
+00:01:13.280 --> 00:01:16.225
+Bunlardan biri, "izin verilen(permissive) lisansdır.
+
+19
+00:01:16.225 --> 00:01:19.210
+BSD bunun en iyi bilinen örneğidir.
+
+20
+00:01:19.210 --> 00:01:22.535
+Kodda değişiklik yaparsınız ve onu ürününüzde kullanırsınız,
+
+21
+00:01:22.535 --> 00:01:26.240
+onu dağıttığınız diğer kişilere vermek zorunda değilsinizdir.
+
+22
+00:01:26.240 --> 00:01:29.510
+Bu genellikle şirketler tarafından tercih edilir, 
+
+23
+00:01:29.510 --> 00:01:35.090
+çünkü tüm değişikliklerini diğer kuruluşlara vermekte isteksizdirler.
+
+24
+00:01:35.090 --> 00:01:37.370
+İkincisi daha kısıtlayıcı(restrictive) bir lisansdır,
+
+25
+00:01:37.370 --> 00:01:41.630
+en iyi örneği  Özgür Yazılım Vakfı'nın GPL veya Genel Kamu Lisansıdır
+
+26
+00:01:41.630 --> 00:01:45.470
+yaptığınız kod değişikliklerinde, ürününüzü alan tüm insanlar için
+
+27
+00:01:45.470 --> 00:01:49.565
+yazılımınızı uygun hale getirmeniz gerektiğini söyler.
+
+28
+00:01:49.565 --> 00:01:52.410
+Buna bazen Copyleft lisansı denir. 
+
+29
+00:01:52.410 --> 00:01:55.130
+Artık açık kaynak teriminin ne anlama geldiği
+
+30
+00:01:55.130 --> 00:01:59.700
+ve özgürlükle nasıl ilişkili olduğu hakkında bir şeyler bildiğimiz için, daha fazla 
+
+31
+00:01:59.700 --> 00:02:02.870
+ayrıntıya girmek için harekete geçebiliriz.

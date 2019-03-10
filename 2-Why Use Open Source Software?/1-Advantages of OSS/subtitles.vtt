@@ -1,0 +1,425 @@
+WEBVTT
+
+1
+00:00:02.368 --> 00:00:06.489
+In this lesson, we are going to survey the advantages of using and
+
+2
+00:00:06.489 --> 00:00:08.760
+deploying open source software.
+
+3
+00:00:08.760 --> 00:00:13.693
+We will begin by talking about how collaborative development leads to
+
+4
+00:00:13.693 --> 00:00:17.241
+a better and more secure product, and then, we will discuss the specific
+
+5
+00:00:17.241 --> 00:00:23.407
+advantages of various stakeholders of using open source software.
+
+6
+00:00:23.407 --> 00:00:28.322
+When a project is developed collaboratively by a diverse group of
+
+7
+00:00:28.322 --> 00:00:32.682
+developers, maybe in different organizations, or companies, or
+
+8
+00:00:32.682 --> 00:00:38.394
+geographic locations, one just has many more ideas to draw on,
+
+9
+00:00:38.394 --> 00:00:42.117
+and one can build better software. Because not everybody is always trying to
+
+10
+00:00:42.117 --> 00:00:46.610
+solve the same problems, they can build on the work of others.
+
+11
+00:00:46.610 --> 00:00:50.433
+Furthermore, just having more eyeballs viewing the code and
+
+12
+00:00:50.433 --> 00:00:53.779
+more groups testing it, leads to a better and stronger and
+
+13
+00:00:53.779 --> 00:00:57.554
+more secure product when it's actually deployed.
+
+14
+00:00:57.554 --> 00:01:02.297
+It's often very difficult for competitors to really get
+
+15
+00:01:02.297 --> 00:01:06.036
+used to the idea of sharing and seeing that the benefits 
+
+16
+00:01:06.036 --> 00:01:12.098
+can be greater than the costs in using the open software model.
+
+17
+00:01:12.098 --> 00:01:18.288
+However, it enables competitors to compete on parts that users actually see, rather
+
+18
+00:01:18.288 --> 00:01:24.750
+than the internal plumbing which can be shared between different competing organizations.
+
+19
+00:01:24.750 --> 00:01:27.909
+Once again, that leads to a stronger product and
+
+20
+00:01:27.909 --> 00:01:30.746
+one which can be developed more quickly.
+
+21
+00:01:32.824 --> 00:01:36.592
+If you have coding standards and style standards,
+
+22
+00:01:36.592 --> 00:01:40.540
+the code will tend to be cleaner and more consistent.
+
+23
+00:01:40.540 --> 00:01:44.558
+This forces many developers to write cleaner code because
+
+24
+00:01:44.558 --> 00:01:49.153
+it's embarrassing to have people look at ugly and sloppy code.
+
+25
+00:01:49.153 --> 00:01:52.836
+And it's also difficult for people to comprehend the code and
+
+26
+00:01:52.836 --> 00:01:55.366
+to make improvements to it.
+
+27
+00:01:55.366 --> 00:02:00.228
+This helps fight security problems before products are actually deployed
+
+28
+00:02:00.228 --> 00:02:04.630
+in the field, there's more input in the original design.
+
+29
+00:02:04.630 --> 00:02:08.740
+You get rid of the concept of "security through obscurity".
+
+30
+00:02:08.740 --> 00:02:12.829
+Having open source enables a lot of people to look for the security flaws and
+
+31
+00:02:12.829 --> 00:02:17.406
+quickly publish fixes to them, so you don't have to just trust people.
+
+32
+00:02:20.182 --> 00:02:24.380
+There are many people that use and deploy open source software and
+
+33
+00:02:24.380 --> 00:02:31.246
+we'll just discuss here users, businesses, educational institutions and developers.
+
+34
+00:02:31.246 --> 00:02:36.197
+Now, these are overlapping categories, obviously. Businesses use the code,
+
+35
+00:02:36.197 --> 00:02:39.331
+as do educational institutions, for example.
+
+36
+00:02:39.331 --> 00:02:45.784
+And developers will work for businesses or educational institutions also.
+
+37
+00:02:47.793 --> 00:02:50.277
+Users gain a lot in terms of flexibility.
+
+38
+00:02:50.277 --> 00:02:53.584
+They can mix and match software that comes from different projects
+
+39
+00:02:53.584 --> 00:02:56.034
+and different sources.
+
+40
+00:02:56.034 --> 00:03:01.078
+It's obviously cheaper in most cases than buying or leasing software.
+
+41
+00:03:01.078 --> 00:03:03.403
+And you don't get locked into specific vendors,
+
+42
+00:03:03.403 --> 00:03:05.719
+you can keep your choice going forever.
+
+43
+00:03:05.719 --> 00:03:08.297
+And the ability to see what's really going on, so
+
+44
+00:03:08.297 --> 00:03:13.210
+that you don't have to just trust somebody who will develop your product.
+
+45
+00:03:13.210 --> 00:03:17.141
+Is very useful, especially if you have the knowledge to really
+
+46
+00:03:17.141 --> 00:03:22.054
+understand the code and in general, it's just more fun having more choices.
+
+47
+00:03:24.560 --> 00:03:27.059
+Businesses can lower the total cost of development,
+
+48
+00:03:27.059 --> 00:03:32.670
+since they can build on the work of others who don't work for their specific company.
+
+49
+00:03:33.340 --> 00:03:35.780
+This also speeds up the time of development.
+
+50
+00:03:35.780 --> 00:03:38.390
+And the time of release of a product to market.
+
+51
+00:03:39.730 --> 00:03:42.728
+Having a lot of community feedback, criticism,
+
+52
+00:03:42.728 --> 00:03:50.214
+suggestions, also lets you gain resources beyond actual employees.
+
+53
+00:03:50.214 --> 00:03:54.131
+If you see things in upstream products, in other words,
+
+54
+00:03:54.131 --> 00:03:56.833
+products that your product requires,
+
+55
+00:03:56.833 --> 00:04:01.494
+if you see things which require a change, or improvement, or fixes,
+
+56
+00:04:01.494 --> 00:04:06.092
+you can work on that product as well, or at least feed your suggestions and
+
+57
+00:04:06.092 --> 00:04:09.236
+code changes to the upstream people, so
+
+58
+00:04:09.236 --> 00:04:13.018
+they don't have to do all kinds of workarounds on your product,
+
+59
+00:04:13.018 --> 00:04:18.641
+to deal with what you perceive to be weaknesses in the upstream product.
+
+60
+00:04:21.885 --> 00:04:26.227
+As far as marketing goes, customers know what they're getting.
+
+61
+00:04:26.227 --> 00:04:29.946
+There's no secrets, so they can have confidence in the quality.
+
+62
+00:04:29.946 --> 00:04:33.850
+There will be a large ecosystem of related products, not just yours.
+
+63
+00:04:33.850 --> 00:04:36.660
+So people can see how it all fits in.
+
+64
+00:04:36.660 --> 00:04:40.900
+And in many cases, there's a very modular construction, where different
+
+65
+00:04:40.900 --> 00:04:45.800
+pieces can be plugged in together, both from within your suite of products,
+
+66
+00:04:45.800 --> 00:04:50.280
+as well as in other organizations or companies' products.
+
+67
+00:04:52.000 --> 00:04:55.330
+If a large community adopts a product,
+
+68
+00:04:55.330 --> 00:04:59.960
+then customers will have confidence the product is here to stay, it's not going to
+
+69
+00:04:59.960 --> 00:05:03.990
+be abandoned no matter what happens or that the development will stop.
+
+70
+00:05:07.050 --> 00:05:11.370
+For educational institutions, there are many advantages and, at first, let's just
+
+71
+00:05:11.370 --> 00:05:17.090
+talk about elementary education, from kindergarten through high school.
+
+72
+00:05:18.420 --> 00:05:21.897
+There's a lot of resources available for teaching,
+
+73
+00:05:21.897 --> 00:05:25.227
+as well as the software itself at little or no cost.
+
+74
+00:05:25.227 --> 00:05:29.001
+In many different areas, including operating systems, applications,
+
+75
+00:05:29.001 --> 00:05:34.282
+administration, programming, etc., and students are not just trained in one
+
+76
+00:05:34.282 --> 00:05:40.639
+company's products which are popular now, but may not be popular in the future.
+
+77
+00:05:40.639 --> 00:05:43.958
+Software itself is very cheap or free.
+
+78
+00:05:43.958 --> 00:05:47.245
+And in many cases, you can use much older hardware than you
+
+79
+00:05:47.245 --> 00:05:52.049
+can if you're using proprietary vendor products.
+
+80
+00:05:52.049 --> 00:05:55.120
+Students will learn skills they need in the workforce.
+
+81
+00:05:55.120 --> 00:06:00.180
+And just in general, they will have more fun due to the flexibility and
+
+82
+00:06:00.180 --> 00:06:01.840
+they will unleash their creativity.
+
+83
+00:06:03.200 --> 00:06:09.570
+At the university level, students can get real practical work on the internals
+
+84
+00:06:09.570 --> 00:06:14.249
+of operating systems, applications, library system administration.
+
+85
+00:06:14.790 --> 00:06:20.033
+For instance, most universities today use Linux to study operating systems,
+
+86
+00:06:20.033 --> 00:06:23.477
+rather than some of the other operating systems that
+
+87
+00:06:23.477 --> 00:06:26.386
+are associated with particular companies.
+
+88
+00:06:26.386 --> 00:06:31.755
+They will gain workforce skills that are needed when they graduate and
+
+89
+00:06:31.755 --> 00:06:34.069
+just generally develop good habits.
+
+90
+00:06:34.069 --> 00:06:39.171
+Having to work with an open community leads to good habits in terms of
+
+91
+00:06:39.171 --> 00:06:44.817
+clean code and being able to handle criticism and make criticism without
+
+92
+00:06:44.817 --> 00:06:49.720
+being sensitive and just generally work well and play with others.
+
+93
+00:06:50.820 --> 00:06:55.090
+And finally, since prospective employers can actually see the work you did
+
+94
+00:06:55.090 --> 00:06:59.490
+instead of just a general description of it, they can actually see your code and
+
+95
+00:06:59.490 --> 00:07:05.045
+evaluate this and in many cases, this really helps get jobs.
+
+96
+00:07:07.043 --> 00:07:10.828
+That's also true by the way for developers, having their code be public,
+
+97
+00:07:10.828 --> 00:07:14.551
+means that a prospective employer can really evaluate them in a way
+
+98
+00:07:14.551 --> 00:07:18.126
+they could not do if it was not open source.
+
+99
+00:07:18.126 --> 00:07:21.977
+You don't have to reinvent everything, you can build on the work of others or
+
+100
+00:07:21.977 --> 00:07:24.576
+standing on their shoulders.
+
+101
+00:07:24.576 --> 00:07:29.076
+Good decisions can be made early in product design by having more input.
+
+102
+00:07:29.076 --> 00:07:33.462
+Likewise, having more people look at the code as we said before,
+
+103
+00:07:33.462 --> 00:07:37.068
+builds a better product and finds bugs more quickly.
+
+104
+00:07:37.068 --> 00:07:42.260
+And just generally having suggestions from a larger group is rather helpful.
+
+105
+00:07:44.080 --> 00:07:47.780
+So these are some of the advantages of using open source software.
+
+106
+00:07:47.780 --> 00:07:51.160
+We will discuss many of them in more detail as we go.

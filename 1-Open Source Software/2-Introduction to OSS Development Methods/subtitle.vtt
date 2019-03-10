@@ -1,0 +1,97 @@
+WEBVTT
+
+1
+00:00:04.010 --> 00:00:06.990
+Let me welcome you to the first course in
+
+2
+00:00:06.990 --> 00:00:10.095
+our Specialization, "Open Source Development Methods".
+
+3
+00:00:10.095 --> 00:00:13.320
+Here, we want to define what open source software is,
+
+4
+00:00:13.320 --> 00:00:15.870
+let you learn about the history of open source software,
+
+5
+00:00:15.870 --> 00:00:18.210
+and what benefits it has provided to
+
+6
+00:00:18.210 --> 00:00:21.725
+the world's technology infrastructure over the decades.
+
+7
+00:00:21.725 --> 00:00:26.145
+We want to teach you how to work in open source projects productively,
+
+8
+00:00:26.145 --> 00:00:27.420
+play well with others,
+
+9
+00:00:27.420 --> 00:00:29.940
+and be able to gain a lot of benefits from it,
+
+10
+00:00:29.940 --> 00:00:31.680
+and really see what the advantages are.
+
+11
+00:00:31.680 --> 00:00:35.070
+We want to discuss the different licensing models that are available,
+
+12
+00:00:35.070 --> 00:00:37.710
+and help you decide what the best license is [for your project].
+
+13
+00:00:37.710 --> 00:00:40.745
+We want to talk about methods which are in common use,
+
+14
+00:00:40.745 --> 00:00:42.805
+such as Continuous Integration,
+
+15
+00:00:42.805 --> 00:00:44.780
+and also the use of GitHub,
+
+16
+00:00:44.780 --> 00:00:46.279
+and other hosting providers,
+
+17
+00:00:46.279 --> 00:00:50.805
+as a central meeting place for open source projects.
+
+18
+00:00:50.805 --> 00:00:53.935
+We want to show you examples of open source projects.
+
+19
+00:00:53.935 --> 00:00:57.510
+We want to tell you how to encourage diversity in open source projects.
+
+20
+00:00:57.510 --> 00:00:59.925
+We just want to survey the whole field.
+
+21
+00:00:59.925 --> 00:01:04.370
+There will be not many labs here that are actually hands-on exercises,
+
+22
+00:01:04.370 --> 00:01:06.545
+mostly we will be discussing issues.
+
+23
+00:01:06.545 --> 00:01:08.840
+In the further courses in this Specialization,
+
+24
+00:01:08.840 --> 00:01:15.180
+we will have very direct hands-on labs with practical experience. So let's begin!

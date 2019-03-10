@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:00.300 --> 00:00:05.369
+The first part of this course is about open source software.
+
+2
+00:00:05.369 --> 00:00:10.720
+So, the first thing we need to do is talk about what the term means.
+
+3
+00:00:10.720 --> 00:00:14.025
+Originally, people talked about free software,
+
+4
+00:00:14.025 --> 00:00:15.685
+but at least in English,
+
+5
+00:00:15.685 --> 00:00:19.850
+the word "free" and "freedom" has two disparate meanings.
+
+6
+00:00:19.850 --> 00:00:23.455
+It can mean free, as not limited or controlled,
+
+7
+00:00:23.455 --> 00:00:27.980
+such as in expressing your freedom of speech and freedom to distribute,
+
+8
+00:00:27.980 --> 00:00:31.135
+or it can mean free as in no cost or payment.
+
+9
+00:00:31.135 --> 00:00:36.850
+People often talk about getting "free beer" or "free samples", for example.
+
+10
+00:00:37.290 --> 00:00:46.810
+So in 1998, people began to use the term open source to be clearer about what was meant by freedom.
+
+11
+00:00:47.420 --> 00:00:50.300
+If you have open source software,
+
+12
+00:00:50.300 --> 00:00:53.510
+that generally means that anybody who
+
+13
+00:00:53.510 --> 00:00:57.510
+respects whatever license is used can examine the software,
+
+14
+00:00:57.510 --> 00:01:01.180
+modify it, and redistribute to other people,
+
+15
+00:01:01.180 --> 00:01:03.110
+and it doesn't matter who they are,
+
+16
+00:01:03.110 --> 00:01:08.940
+or exactly what is going to be used for, as long as the license rights are respected.
+
+17
+00:01:09.100 --> 00:01:13.280
+There are two basic classifications of licenses.
+
+18
+00:01:13.280 --> 00:01:16.225
+One is so-called permissive licenses.
+
+19
+00:01:16.225 --> 00:01:19.210
+BSD is the best known example of that.
+
+20
+00:01:19.210 --> 00:01:22.535
+If you make changes to the code and use it in your product,
+
+21
+00:01:22.535 --> 00:01:26.240
+you do not have to give it to other people that you distribute to.
+
+22
+00:01:26.240 --> 00:01:29.510
+This is often preferred by companies, because they're
+
+23
+00:01:29.510 --> 00:01:35.090
+reluctant to give all their changes out to other entities.
+
+24
+00:01:35.090 --> 00:01:37.370
+A more restrictive license,
+
+25
+00:01:37.370 --> 00:01:41.630
+the best known example of being the GPL or General Public License from
+
+26
+00:01:41.630 --> 00:01:45.470
+the Free Software Foundation, says that any changes to code you
+
+27
+00:01:45.470 --> 00:01:49.565
+make, you must make available to all people that receive your product.
+
+28
+00:01:49.565 --> 00:01:52.410
+This is sometimes called a Copyleft license.
+
+29
+00:01:52.410 --> 00:01:55.130
+So, now that we know something
+
+30
+00:01:55.130 --> 00:01:59.700
+about what the term open source means and how it relates to freedom,
+
+31
+00:01:59.700 --> 00:02:02.870
+we can move on to get into more details.

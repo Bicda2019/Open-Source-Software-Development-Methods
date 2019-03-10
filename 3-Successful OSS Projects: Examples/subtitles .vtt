@@ -1,0 +1,317 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.290
+Open Source Software projects dominate the world's technology infrastructure today.
+
+2
+00:00:07.290 --> 00:00:09.960
+In this lesson, we will consider some of
+
+3
+00:00:09.960 --> 00:00:16.550
+the most successful examples and long-standing examples of open source software projects.
+
+4
+00:00:17.580 --> 00:00:19.510
+We begin with the Linux kernel,
+
+5
+00:00:19.510 --> 00:00:24.350
+which began in 1991 as Linus Torvalds' student project.
+
+6
+00:00:24.350 --> 00:00:26.790
+It has been under an open source license,
+
+7
+00:00:26.790 --> 00:00:30.345
+the GPL, since its earliest days.
+
+8
+00:00:30.345 --> 00:00:34.440
+Almost all the world's computing infrastructure now is based on Linux,
+
+9
+00:00:34.440 --> 00:00:37.735
+100 percent of the world's super computers for example,
+
+10
+00:00:37.735 --> 00:00:44.825
+as well as the largest number of mobile devices since Android is based on Linux,
+
+11
+00:00:44.825 --> 00:00:48.205
+in fact is Linux in terms of its kernel.
+
+12
+00:00:48.205 --> 00:00:52.040
+You will find Linux in an enormous range of
+
+13
+00:00:52.040 --> 00:00:55.785
+devices, such as medical devices, other embedded products,
+
+14
+00:00:55.785 --> 00:00:59.610
+probably whatever you're using in your home entertainment systems,
+
+15
+00:00:59.610 --> 00:01:04.695
+as well as personal fitness devices such as Fitbit.
+
+16
+00:01:04.695 --> 00:01:07.610
+There is a very large and mature development community
+
+17
+00:01:07.610 --> 00:01:10.295
+of literally many thousands of developers.
+
+18
+00:01:10.295 --> 00:01:12.710
+The pace of development is extremely rapid.
+
+19
+00:01:12.710 --> 00:01:15.100
+New versions come out every 10 to 12 weeks,
+
+20
+00:01:15.100 --> 00:01:20.330
+and thousands of lines of code are added and removed every single day.
+
+21
+00:01:20.470 --> 00:01:27.080
+The Git distributed version control system arose out of the Linux project in
+
+22
+00:01:27.080 --> 00:01:33.935
+2005, as the project really scaled to thousands of developers in a very frequent pace.
+
+23
+00:01:33.935 --> 00:01:36.620
+It is specifically designed to work with
+
+24
+00:01:36.620 --> 00:01:41.735
+a very distributed and far-flung group of contributors.
+
+25
+00:01:41.735 --> 00:01:48.940
+GitHub, which hosts literally millions of products, is entirely based on Git.
+
+26
+00:01:48.940 --> 00:01:54.080
+There's no requirement that you have to have an open source project to use Git.
+
+27
+00:01:54.080 --> 00:01:56.410
+It can be used in proprietary projects,
+
+28
+00:01:56.410 --> 00:01:59.760
+as well in private repositories.
+
+29
+00:02:00.320 --> 00:02:05.970
+The Apache Web Server began in 1995.
+
+30
+00:02:05.970 --> 00:02:09.170
+Today, it's the most widely used web server.
+
+31
+00:02:09.170 --> 00:02:12.830
+It's produced by the Apache Software Foundation.
+
+32
+00:02:12.830 --> 00:02:17.445
+Released under the Apache Software License, which has been used by many other projects.
+
+33
+00:02:17.445 --> 00:02:23.025
+It's a more permissive license than the GPL, which is a so-called restrictive license.
+
+34
+00:02:23.025 --> 00:02:26.660
+It's very hard to overestimate the importance of Apache.
+
+35
+00:02:26.660 --> 00:02:30.340
+There are many sub-projects and related projects that are
+
+36
+00:02:30.340 --> 00:02:35.570
+found in every corner of the international infrastructure for computing.
+
+37
+00:02:36.580 --> 00:02:41.865
+Various computer languages are developed using open source techniques.
+
+38
+00:02:41.865 --> 00:02:43.780
+Languages such as Python,
+
+39
+00:02:43.780 --> 00:02:44.930
+and Perl, and Ruby,
+
+40
+00:02:44.930 --> 00:02:48.675
+et cetera, are developed in an open source method.
+
+41
+00:02:48.675 --> 00:02:53.580
+Languages like C, I should say,
+
+42
+00:02:53.580 --> 00:02:56.360
+are developed by international standards bodies, but then
+
+43
+00:02:56.360 --> 00:02:59.640
+the implementations are developed with open source methods.
+
+44
+00:02:59.640 --> 00:03:01.150
+So, for C, for instance,
+
+45
+00:03:01.150 --> 00:03:06.840
+you have both GCC and the LLVM project releasing compilers.
+
+46
+00:03:07.560 --> 00:03:14.480
+TeX and LaTeX began in 1978 as a project by Donald Knuth,
+
+47
+00:03:14.480 --> 00:03:18.325
+who's a very well-known computing science professor,
+
+48
+00:03:18.325 --> 00:03:26.490
+who is extremely respected for his development of algorithms, as well as TeX system.
+
+49
+00:03:26.490 --> 00:03:30.175
+It's actually a typesetting system.
+
+50
+00:03:30.175 --> 00:03:35.340
+It's much more than a word processor, but it's still used to produce many documents,
+
+51
+00:03:35.340 --> 00:03:39.705
+books, slides, talks, especially in the academic community.
+
+52
+00:03:39.705 --> 00:03:43.465
+There's an extremely active and very large community,
+
+53
+00:03:43.465 --> 00:03:47.290
+constantly inventing new extensions to TeX,
+
+54
+00:03:47.290 --> 00:03:51.680
+as well as international support for languages, et cetera.
+
+55
+00:03:51.840 --> 00:03:58.590
+The Free Software Foundation is in charge of the GNU Project,
+
+56
+00:03:58.590 --> 00:04:02.500
+or GNU's Not Unix, and many of
+
+57
+00:04:02.500 --> 00:04:07.980
+the essential ingredients that people use everyday come from the GNU Project,
+
+58
+00:04:07.980 --> 00:04:12.220
+including gcc - the compiler, the debugger gdb,
+
+59
+00:04:12.220 --> 00:04:17.100
+glibc, which is the library that almost all programs have to use,
+
+60
+00:04:17.100 --> 00:04:19.620
+bash, which is the command line interpreter,
+
+61
+00:04:19.620 --> 00:04:21.715
+we will talk about in detail later,
+
+62
+00:04:21.715 --> 00:04:25.695
+and coreutils, as most of the basic command line programs.
+
+63
+00:04:25.695 --> 00:04:30.100
+System administrators and developers use everyday come from this project.
+
+64
+00:04:30.100 --> 00:04:33.155
+Without the GNU Project,
+
+65
+00:04:33.155 --> 00:04:38.390
+Linux would never have been able to develop at the pace that it did.
+
+66
+00:04:39.210 --> 00:04:46.295
+The Window and desktop interfaces people are used to using for instance on Linux systems,
+
+67
+00:04:46.295 --> 00:04:49.200
+as well as other systems,
+
+68
+00:04:49.200 --> 00:04:53.795
+such as FreeBSD, are developed in an open source manner.
+
+69
+00:04:53.795 --> 00:04:58.065
+The X Windows System and the desktop environments, GNOME,
+
+70
+00:04:58.065 --> 00:05:04.400
+KDE, XFCE, and others were all developed using open source methods.
+
+71
+00:05:04.980 --> 00:05:08.904
+There are many other widely deployed projects
+
+72
+00:05:08.904 --> 00:05:12.415
+which are developed openly with open source methods.
+
+73
+00:05:12.415 --> 00:05:15.770
+In particular, OpenStack and Kubernetes are
+
+74
+00:05:15.770 --> 00:05:18.920
+extremely widely used in very hot projects today.
+
+75
+00:05:18.920 --> 00:05:20.690
+Now, we list some of the others,
+
+76
+00:05:20.690 --> 00:05:22.430
+such as ONAP for networking,
+
+77
+00:05:22.430 --> 00:05:26.970
+Hyperledger for blockchain, et cetera.
+
+78
+00:05:28.150 --> 00:05:35.600
+So, that's just a brief list of a few of the very long number,
+
+79
+00:05:35.600 --> 00:05:41.400
+long list of open source projects that are using the methods we are talking about here.

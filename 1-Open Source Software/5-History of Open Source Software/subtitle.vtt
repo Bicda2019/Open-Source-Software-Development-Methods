@@ -1,0 +1,313 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:05.949
+We're briefly going to run through the history of open source software.
+
+2
+00:00:06.110 --> 00:00:11.855
+While the term open source software dates back only to 1998,
+
+3
+00:00:11.855 --> 00:00:17.860
+the concept of freely sharing the source through various applications, programs,
+
+4
+00:00:17.860 --> 00:00:19.810
+hardware device, drivers, et cetera,
+
+5
+00:00:19.810 --> 00:00:26.180
+dates back to at least the 1950's in the early years of the computer age.
+
+6
+00:00:29.300 --> 00:00:36.204
+In the 1950's, most software arose from both corporate and academic environments,
+
+7
+00:00:36.204 --> 00:00:39.590
+it was often very strongly coupled to the hardware,
+
+8
+00:00:39.590 --> 00:00:44.160
+and was generally not distributed by itself,
+
+9
+00:00:44.160 --> 00:00:46.130
+it was distributed with the binaries.
+
+10
+00:00:46.130 --> 00:00:50.870
+It wasn't seen as a separate commodity, and licensing was sloppy.
+
+11
+00:00:50.870 --> 00:00:55.130
+One reason for the fact that the source was distributed is
+
+12
+00:00:55.130 --> 00:00:59.080
+that there was many different platforms that people ran on,
+
+13
+00:00:59.080 --> 00:01:02.430
+they had different compilers, different operating systems,
+
+14
+00:01:02.430 --> 00:01:07.600
+and the concept of distributing binaries just was not practical at all.
+
+15
+00:01:07.960 --> 00:01:13.290
+In the 1960's, there were rapid advances in computer science,
+
+16
+00:01:13.290 --> 00:01:16.280
+as well as rapid advances in hardware.
+
+17
+00:01:16.280 --> 00:01:18.920
+These developed both in academic institutions,
+
+18
+00:01:18.920 --> 00:01:20.900
+such as MIT and Berkeley,
+
+19
+00:01:20.900 --> 00:01:23.725
+and very important early research labs,
+
+20
+00:01:23.725 --> 00:01:26.295
+particularly Bell Labs and Xerox.
+
+21
+00:01:26.295 --> 00:01:32.450
+The Internet was born in 1968 with the beginning of ARPANET,
+
+22
+00:01:32.450 --> 00:01:36.220
+and the Unix operating system began in 1969.
+
+23
+00:01:36.220 --> 00:01:39.790
+Linux is a direct descendant of Unix.
+
+24
+00:01:40.390 --> 00:01:48.400
+In the 1970's, some of the first important open source software projects were released,
+
+25
+00:01:48.400 --> 00:01:50.945
+some of which still survive today.
+
+26
+00:01:50.945 --> 00:01:56.100
+Emacs was written by Richard Stallman as a text editor,
+
+27
+00:01:56.100 --> 00:02:00.980
+and Richard Stallman has been a very important figure in the history of Open Source.
+
+28
+00:02:00.980 --> 00:02:05.830
+He's the founder of the Free Software Foundation and the GNU project.
+
+29
+00:02:05.830 --> 00:02:11.475
+In 1978, the first version of TeX,
+
+30
+00:02:11.475 --> 00:02:14.320
+the most advanced typesetting system,
+
+31
+00:02:14.320 --> 00:02:16.450
+was released by Donald Knuth,
+
+32
+00:02:16.450 --> 00:02:19.730
+and it's still an extremely wide used and has developed
+
+33
+00:02:19.730 --> 00:02:23.940
+into many different forms and many different usages.
+
+34
+00:02:24.070 --> 00:02:27.740
+The 1980's continued the explosion of
+
+35
+00:02:27.740 --> 00:02:32.075
+the Internet and of open source software in general.
+
+36
+00:02:32.075 --> 00:02:39.250
+There started to be good arenas for widespread discussion online such as Usenet.
+
+37
+00:02:39.250 --> 00:02:42.920
+The GNU project was announced to provide
+
+38
+00:02:42.920 --> 00:02:47.610
+alternatives to Unix software that were freely available,
+
+39
+00:02:47.610 --> 00:02:49.905
+the X Window System which provided
+
+40
+00:02:49.905 --> 00:02:52.910
+the graphical desktop basis for
+
+41
+00:02:52.910 --> 00:02:57.050
+almost all Linux distributions until very recently was released,
+
+42
+00:02:57.050 --> 00:03:02.474
+and then many advances from the Free Software Foundation, including GCC,
+
+43
+00:03:02.474 --> 00:03:08.245
+the compiler that's used for many languages today on many platforms.
+
+44
+00:03:08.245 --> 00:03:12.670
+In the 1990's, a student in Finland, Linus Torvalds, asked for
+
+45
+00:03:12.670 --> 00:03:18.960
+some help in creating a new operating system and that was the birth of Linux.
+
+46
+00:03:18.960 --> 00:03:22.815
+The Python language was released in 1992,
+
+47
+00:03:22.815 --> 00:03:28.960
+other variants of open operating systems, such as 386BSD, were released.
+
+48
+00:03:28.960 --> 00:03:32.819
+The Debian distribution was begun,
+
+49
+00:03:32.819 --> 00:03:38.240
+it was the largest non-commercial Linux distribution and still is,
+
+50
+00:03:38.240 --> 00:03:42.500
+it has more packages and contributors than any other Linux form,
+
+51
+00:03:42.500 --> 00:03:45.315
+as well as other kinds of BSD.
+
+52
+00:03:45.315 --> 00:03:47.510
+Red Hat was released as
+
+53
+00:03:47.510 --> 00:03:54.450
+the first distribution company to actually succeed as a corporate entity.
+
+54
+00:03:55.430 --> 00:03:58.250
+Further later in the decade,
+
+55
+00:03:58.250 --> 00:04:01.940
+there were many more important products released we still use today,
+
+56
+00:04:01.940 --> 00:04:03.590
+such as the Ruby language,
+
+57
+00:04:03.590 --> 00:04:04.930
+the Apache web server,
+
+58
+00:04:04.930 --> 00:04:10.185
+which is the largest market share of web servers in the world,
+
+59
+00:04:10.185 --> 00:04:14.110
+both the KDE and GNOME desktops are released.
+
+60
+00:04:14.110 --> 00:04:19.310
+The Netscape browser began a pattern that became common later of
+
+61
+00:04:19.310 --> 00:04:22.730
+a closed source proprietary platform
+
+62
+00:04:22.730 --> 00:04:26.630
+releasing its source, so that other people could see it and contribute to it.
+
+63
+00:04:26.630 --> 00:04:30.300
+This, of course later, became Firefox, and OpenOffice,
+
+64
+00:04:30.300 --> 00:04:33.560
+a full featured office suite that was available
+
+65
+00:04:33.560 --> 00:04:37.990
+across many operating systems eventually was released,
+
+66
+00:04:37.990 --> 00:04:41.960
+and today it has forked into LibreOffice, which is the form
+
+67
+00:04:41.960 --> 00:04:45.965
+that's used on most Linux distributions, if not all.
+
+68
+00:04:45.965 --> 00:04:49.525
+Then it just continues into the 2000's,
+
+69
+00:04:49.525 --> 00:04:55.435
+this is just a list of some of the major events, such as the birth of Ubuntu and Firefox.
+
+70
+00:04:55.435 --> 00:05:02.185
+The Git source control system that we'll talk about in detail later was released in 2005.
+
+71
+00:05:02.185 --> 00:05:05.795
+Android, which is based on Linux kernel,
+
+72
+00:05:05.795 --> 00:05:07.865
+was released in 2007,
+
+73
+00:05:07.865 --> 00:05:13.260
+and today the largest number of phones in the world are based on Android,
+
+74
+00:05:13.260 --> 00:05:14.700
+and the Chrome browser,
+
+75
+00:05:14.700 --> 00:05:17.015
+its predecessor was released.
+
+76
+00:05:17.015 --> 00:05:19.760
+So, that's just a brief review of some of
+
+77
+00:05:19.760 --> 00:05:24.110
+the major milestones in the history of open source software.
+
+78
+00:05:24.110 --> 00:05:26.530
+There are many more that we could have talked about.

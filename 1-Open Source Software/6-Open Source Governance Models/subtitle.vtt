@@ -1,0 +1,209 @@
+WEBVTT
+
+1
+00:00:00.850 --> 00:00:03.780
+Any type of project, whether it is open source software or
+
+2
+00:00:03.780 --> 00:00:09.001
+not, requires a method of organization, or what we would call a governance model.
+
+3
+00:00:11.060 --> 00:00:15.260
+Now, this includes how decisions get made and who makes them.
+
+4
+00:00:15.260 --> 00:00:19.419
+And this requires careful thought to set it up in a sustainable and efficient way.
+
+5
+00:00:20.780 --> 00:00:26.160
+Whether or not anyone can contribute, or only a few people can contribute,
+
+6
+00:00:26.160 --> 00:00:31.380
+or whether decisions are made democratically, or by some clear central authority,
+
+7
+00:00:31.380 --> 00:00:35.814
+and whether or not plans and discussions are made public before releases, or
+
+8
+00:00:35.814 --> 00:00:38.572
+actually put out in the wild,
+
+9
+00:00:38.572 --> 00:00:42.448
+a project can still be open source, no matter what choices are made for
+
+10
+00:00:42.448 --> 00:00:44.220
+these parameters.
+
+11
+00:00:44.220 --> 00:00:48.160
+But these parameters determine what your governance model is.
+
+12
+00:00:49.560 --> 00:00:54.620
+Now, one model is the company-led process, which is mostly closed, but
+
+13
+00:00:54.620 --> 00:00:57.520
+the final release is all open source.
+
+14
+00:00:57.520 --> 00:01:03.670
+So, one entity will control the software design, development and releases.
+
+15
+00:01:03.670 --> 00:01:08.390
+There may be external contributions and opinions and review, but
+
+16
+00:01:08.390 --> 00:01:13.000
+it's not necessary that the company actually take them into account.
+
+17
+00:01:14.080 --> 00:01:17.400
+Plans and release dates may be described openly or
+
+18
+00:01:17.400 --> 00:01:22.290
+they may be kept kind of closed and not discussed in advance.
+
+19
+00:01:22.290 --> 00:01:26.345
+And you may not have a window into internal discussions, controversies and
+
+20
+00:01:26.345 --> 00:01:28.260
+decisions that are made.
+
+21
+00:01:28.260 --> 00:01:32.040
+However, once the software is released, it's completely in the open.
+
+22
+00:01:32.040 --> 00:01:36.924
+A very good example is Google Android, where the source is completely open, but
+
+23
+00:01:36.924 --> 00:01:41.587
+very little is disclosed to the general public before the release is made.
+
+24
+00:01:44.222 --> 00:01:49.122
+The benevolent dictatorship model has strong leadership, it has one individual that
+
+25
+00:01:49.122 --> 00:01:53.480
+makes the final decisions and has overriding influence.
+
+26
+00:01:53.480 --> 00:01:56.580
+Whether or not this can work depends on the dictator's wisdom,
+
+27
+00:01:56.580 --> 00:02:00.249
+as well as their actual capability and management of the process.
+
+28
+00:02:01.570 --> 00:02:06.250
+The role is generally social and political, and not really structural,
+
+29
+00:02:06.250 --> 00:02:10.540
+especially if they are using Git as a revision control system.
+
+30
+00:02:10.540 --> 00:02:14.670
+As things evolve and scale up to larger sizes, the maintainers
+
+31
+00:02:14.670 --> 00:02:17.490
+will tend to write less and less code and do mostly review.
+
+32
+00:02:18.690 --> 00:02:22.640
+One advantage of having a strong leadership model is that endless
+
+33
+00:02:22.640 --> 00:02:28.650
+discussions can be terminated at the discretion of the so-called dictator.
+
+34
+00:02:30.070 --> 00:02:33.720
+I want to point out the word dictator here is not necessarily meant
+
+35
+00:02:33.720 --> 00:02:37.210
+in a negative sense, it just means a strong leader.
+
+36
+00:02:37.210 --> 00:02:41.690
+The most prominent example, of course, is the Linux kernel led by Linus Torvalds,
+
+37
+00:02:41.690 --> 00:02:43.610
+Wikipedia is another example.
+
+38
+00:02:45.920 --> 00:02:50.538
+You can have a completely open process with a governing board, where you
+
+39
+00:02:50.538 --> 00:02:53.688
+have a tighter control by a smaller group.
+
+40
+00:02:53.688 --> 00:03:00.723
+All discussions are out in the open, on mailing lists, or chats, or any other form.
+
+41
+00:03:00.723 --> 00:03:04.199
+And decisions about who contributes, how patches are accepted,
+
+42
+00:03:04.199 --> 00:03:07.950
+new software is accepted, are made by that governing body.
+
+43
+00:03:07.950 --> 00:03:10.570
+There's a lot of variation in the governing structures, from
+
+44
+00:03:10.570 --> 00:03:12.630
+very loose to very tight.
+
+45
+00:03:12.630 --> 00:03:17.280
+Democratic votes versus rule by consensus, etc.
+
+46
+00:03:17.280 --> 00:03:19.833
+You tend to get less frequent releases, but
+
+47
+00:03:19.833 --> 00:03:23.420
+often they're very well debugged hopefully.
+
+48
+00:03:23.420 --> 00:03:27.468
+So, prominent examples are the FreeBSD operating system or
+
+49
+00:03:27.468 --> 00:03:30.477
+the Debian Linux distribution.
+
+50
+00:03:30.477 --> 00:03:34.211
+So that's a brief survey of some of the governance models that are used by
+
+51
+00:03:34.211 --> 00:03:36.706
+open source software projects.
+
+52
+00:03:36.706 --> 00:03:39.970
+What you choose will depend on your needs and goals.
