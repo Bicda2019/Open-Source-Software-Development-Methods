@@ -1,0 +1,357 @@
+WEBVTT
+
+1
+00:00:02.327 --> 00:00:06.740
+With today's Internet-based technology infrastructure,
+
+2
+00:00:06.740 --> 00:00:09.000
+things move really quickly.
+
+3
+00:00:09.000 --> 00:00:15.460
+And it's very important to have fixes, updates, and new software rolled out as quickly as possible,
+
+4
+00:00:15.460 --> 00:00:19.761
+with as few bugs or security problems as possible.
+
+5
+00:00:19.761 --> 00:00:23.970
+This is where the concept of Continuous Integration comes in.
+
+6
+00:00:26.585 --> 00:00:33.323
+There was a time when most software was written by one or a few developers in a group.
+
+7
+00:00:33.323 --> 00:00:35.899
+Often, they worked in the same location,
+
+8
+00:00:35.899 --> 00:00:40.618
+and they were in contact with each other directly, quite frequently.
+
+9
+00:00:40.618 --> 00:00:45.074
+It was relatively easy to coordinate responsibilities and divide labor.
+
+10
+00:00:47.206 --> 00:00:48.431
+It was still important, though,
+
+11
+00:00:48.431 --> 00:00:53.569
+to develop revision control systems that both kept track of changes,
+
+12
+00:00:53.569 --> 00:00:59.089
+but also enabled more than one contributor to work on a project at the same time
+
+13
+00:00:59.089 --> 00:01:04.605
+and to handle it in a rational and sane way and avoid conflicts, etc.
+
+14
+00:01:04.605 --> 00:01:08.010
+In order to do this, a central repository was created
+
+15
+00:01:08.010 --> 00:01:10.354
+which stored the master copy of a project.
+
+16
+00:01:10.354 --> 00:01:14.884
+And then developers could check out that copy, make changes, and
+
+17
+00:01:14.884 --> 00:01:16.144
+then check them back in.
+
+18
+00:01:16.844 --> 00:01:21.086
+The problem of having two people work at the same thing at once was
+
+19
+00:01:21.086 --> 00:01:23.733
+rather special, and eventually became more and
+
+20
+00:01:23.733 --> 00:01:27.547
+more important, and people developed techniques for working with that.
+
+21
+00:01:28.047 --> 00:01:33.057
+The first really hugely distributed development project was the Linux kernel,
+
+22
+00:01:33.657 --> 00:01:36.087
+where literally people were all over the world,
+
+23
+00:01:36.087 --> 00:01:38.608
+and these days there are thousands of people.
+
+24
+00:01:39.308 --> 00:01:44.915
+The git revision control system was invented by Linus Torvalds himself in
+
+25
+00:01:44.915 --> 00:01:48.120
+order to rationalize this kind of distributed development.
+
+26
+00:01:50.290 --> 00:01:55.430
+But a revision control system still doesn't solve the problem of making sure
+
+27
+00:01:55.430 --> 00:01:57.260
+that things actually work.
+
+28
+00:01:57.260 --> 00:02:00.876
+If you have people working on different parts of a project, from different angles
+
+29
+00:02:00.876 --> 00:02:04.519
+and locations, it has to mesh together and not conflict.
+
+30
+00:02:04.519 --> 00:02:09.519
+And solving one problem should not create another one in another area, etc.
+
+31
+00:02:09.519 --> 00:02:12.364
+You must have testing in order to do that.
+
+32
+00:02:13.364 --> 00:02:18.532
+So if you're doing testing, you have to consider a number of questions,
+
+33
+00:02:18.532 --> 00:02:24.808
+such as can you apply changes that overlap with each other at the same time?
+
+34
+00:02:24.808 --> 00:02:28.540
+Do they conflict? If so, how do you resolve those conflicts?
+
+35
+00:02:29.040 --> 00:02:31.260
+Does the project actually still compile?
+
+36
+00:02:31.260 --> 00:02:35.300
+And can it be produced once you apply all the changes?
+
+37
+00:02:35.800 --> 00:02:40.040
+What about all the possible targets? A lot of people working on a project only work
+
+38
+00:02:40.040 --> 00:02:43.160
+on one kind of architecture or one kind of device, etc.
+
+39
+00:02:44.920 --> 00:02:48.230
+You have to actually define what it means to work.
+
+40
+00:02:49.030 --> 00:02:52.210
+And are there good test suites that can be used
+
+41
+00:02:52.210 --> 00:02:56.020
+with a representative workload to make sure things are actually working and
+
+42
+00:02:56.020 --> 00:02:58.549
+give you some confidence that things are okay?
+
+43
+00:02:59.680 --> 00:03:04.866
+What Continuous Integration techniques do is they ensure you test constantly and
+
+44
+00:03:04.866 --> 00:03:09.907
+frequently, that any problems which develop are quickly resolved, and
+
+45
+00:03:09.907 --> 00:03:13.044
+developers and users all stay on the same page.
+
+46
+00:03:15.422 --> 00:03:20.892
+Usually, people distinguish three separate stages to Continuous Integration.
+
+47
+00:03:21.192 --> 00:03:26.276
+There's Continuous Integration, Continuous Delivery, and Continuous Deployment.
+
+48
+00:03:26.576 --> 00:03:31.221
+The idea where Continuous Integration is to constantly merge any changes
+
+49
+00:03:31.221 --> 00:03:36.838
+into the main branch of the software and to run automated compiles and
+
+50
+00:03:36.838 --> 00:03:42.171
+builds, with as many variations of platforms, software, or hardware as possible,
+
+51
+00:03:42.171 --> 00:03:46.823
+so that any conflicts are nipped in the bud before they become rather bad.
+
+52
+00:03:47.823 --> 00:03:52.823
+The Continuous Delivery phase means that, once you have integrated changes,
+
+53
+00:03:52.823 --> 00:03:58.023
+you have a quick and automated process of delivery or
+
+54
+00:03:58.023 --> 00:04:03.033
+release, and it's released to consumers of the build.
+
+55
+00:04:03.033 --> 00:04:05.076
+This might be companies, etc.,
+
+56
+00:04:05.076 --> 00:04:09.273
+that are using the software which they're going to distribute to end users.
+
+57
+00:04:09.673 --> 00:04:13.099
+And that is done in the third phase, Continuous Deployment,
+
+58
+00:04:13.099 --> 00:04:16.379
+where you release the actual product to customers.
+
+59
+00:04:17.660 --> 00:04:22.921
+So sometimes, Continuous Integration means all three phases together and
+
+60
+00:04:22.921 --> 00:04:25.498
+includes both Delivery and Deployment.
+
+61
+00:04:27.291 --> 00:04:31.861
+So here's a little graph that shows you how it all goes in a continuous
+
+62
+00:04:31.861 --> 00:04:37.159
+circle. The time gap between the steps is meant to be as close to zero as possible.
+
+63
+00:04:37.830 --> 00:04:43.473
+In some cases, developer changes can even reach user customers in the same day, or
+
+64
+00:04:43.473 --> 00:04:48.292
+even within minutes or hours when everything is working very cleanly.
+
+65
+00:04:50.303 --> 00:04:54.986
+Now, the benefits we have talked about, and they're relatively obvious, but
+
+66
+00:04:54.986 --> 00:04:58.910
+there are also significant costs to Continuous Integration.
+
+67
+00:05:00.250 --> 00:05:03.266
+If developers have to constantly integrate their changes,
+
+68
+00:05:03.266 --> 00:05:08.741
+that's a possible strain on developers, because they constantly have to feed
+
+69
+00:05:08.741 --> 00:05:14.615
+their work up to other people, even before they're finished completely.
+
+70
+00:05:14.915 --> 00:05:19.046
+Of course, the benefit there is you don't go too far down a wrong path.
+
+71
+00:05:19.046 --> 00:05:22.528
+You can catch mistakes before they get baked in and
+
+72
+00:05:22.528 --> 00:05:24.210
+get in the way of other people.
+
+73
+00:05:24.830 --> 00:05:29.978
+Another cost is that you have to construct what's called a Continuous Integration server.
+
+74
+00:05:29.972 --> 00:05:32.921
+There has to be staff allocated to do this,
+
+75
+00:05:32.921 --> 00:05:36.740
+to handle this whole process of Continuous Integration.
+
+76
+00:05:37.700 --> 00:05:42.660
+The benefit here, though, is that everything is fully automated,
+
+77
+00:05:42.660 --> 00:05:44.510
+all the work has been done up front, and so
+
+78
+00:05:44.510 --> 00:05:48.250
+you don't have to just do a build each time, it's all very automated.
+
+79
+00:05:48.850 --> 00:05:53.823
+Another cost is that scripts and other tools have to be written so
+
+80
+00:05:53.823 --> 00:05:57.441
+that you can perform these tests, etc.
+
+81
+00:05:57.441 --> 00:06:01.970
+And it's a lot of work to set up such an infrastructure on a complicated project.
+
+82
+00:06:01.970 --> 00:06:06.010
+But the benefit is that you minimize bugs, or
+
+83
+00:06:06.010 --> 00:06:11.130
+what are known as regressions, which are bugs in features which used to work.
+
+84
+00:06:11.130 --> 00:06:14.920
+You can minimize that, and hopefully your releases are more bug-free.
+
+85
+00:06:16.140 --> 00:06:20.351
+There are many tools that are used for Continuous Integration,
+
+86
+00:06:20.351 --> 00:06:24.003
+complete suites of software that help the whole process.
+
+87
+00:06:24.003 --> 00:06:28.578
+Jenkins is the most widely used, and they give a list here of some of
+
+88
+00:06:28.578 --> 00:06:34.056
+the other main ones, such as Travis, TeamCity, GitLab CI,
+
+89
+00:06:34.056 --> 00:06:39.660
+Bamboo, etc. Some of these are free, others are not.

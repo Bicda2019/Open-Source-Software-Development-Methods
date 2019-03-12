@@ -1,0 +1,257 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.955
+Let's continue in this lesson,
+
+2
+00:00:01.955 --> 00:00:07.290
+in giving some tips for working successfully in an open source project.
+
+3
+00:00:07.290 --> 00:00:11.025
+First of all, identify the maintainers, the leadership.
+
+4
+00:00:11.025 --> 00:00:13.885
+Study their work and how they operate.
+
+5
+00:00:13.885 --> 00:00:16.470
+There may be just one basic maintainer,
+
+6
+00:00:16.470 --> 00:00:19.424
+perhaps, a so-called benevolent dictator.
+
+7
+00:00:19.424 --> 00:00:25.220
+More likely, there are also subsystem maintainers that handle certain key components.
+
+8
+00:00:25.220 --> 00:00:30.610
+The Linux kernel is a good model for how that might work.
+
+9
+00:00:30.610 --> 00:00:33.270
+The job of a maintainer is to understand and
+
+10
+00:00:33.270 --> 00:00:37.480
+review everything that is submitted as a patch to the work.
+
+11
+00:00:37.480 --> 00:00:42.815
+You should make sure that you're not just adding a complication or introducing bugs.
+
+12
+00:00:42.815 --> 00:00:45.080
+The maintainer also has to make sure
+
+13
+00:00:45.080 --> 00:00:48.605
+the work doesn't conflict with work submitted by other people,
+
+14
+00:00:48.605 --> 00:00:51.620
+they have to do their work in a timely manner,
+
+15
+00:00:51.620 --> 00:00:54.935
+and not leave people impatient or dissatisfied,
+
+16
+00:00:54.935 --> 00:00:57.725
+and they have to treat people with respect.
+
+17
+00:00:57.725 --> 00:01:00.030
+It's very important to have a good relationship
+
+18
+00:01:00.030 --> 00:01:02.285
+with the maintainers you need to deal with.
+
+19
+00:01:02.285 --> 00:01:04.325
+Be respectful, be patient,
+
+20
+00:01:04.325 --> 00:01:05.660
+and also be helpful,
+
+21
+00:01:05.660 --> 00:01:07.390
+review other people's submissions,
+
+22
+00:01:07.390 --> 00:01:11.290
+help debug things, don't just expect service on your own work.
+
+23
+00:01:11.290 --> 00:01:13.410
+It's important to get input early,
+
+24
+00:01:13.410 --> 00:01:14.690
+and work out in the open.
+
+25
+00:01:14.690 --> 00:01:18.940
+Don't go very far without getting some feedback from people,
+
+26
+00:01:18.940 --> 00:01:23.230
+there's probably a lot of history in the project. Your idea might be an old one.
+
+27
+00:01:23.230 --> 00:01:24.860
+Perhaps, it was discussed and
+
+28
+00:01:24.860 --> 00:01:26.540
+rejected in the past,
+
+29
+00:01:26.540 --> 00:01:29.755
+but maybe it's worth looking at it again,
+
+30
+00:01:29.755 --> 00:01:31.375
+but you should know the history.
+
+31
+00:01:31.375 --> 00:01:34.965
+A very bad idea suggests to introduce ideas,
+
+32
+00:01:34.965 --> 00:01:38.335
+and say somebody should do something. That's a good way to be ignored.
+
+33
+00:01:38.335 --> 00:01:40.590
+People expect you to work on things.
+
+34
+00:01:40.590 --> 00:01:45.150
+If you can't handle having other people look at your work while you're doing it,
+
+35
+00:01:45.150 --> 00:01:47.385
+don't work in open source.
+
+36
+00:01:47.385 --> 00:01:52.320
+It's important to contribute your work in digestible pieces,
+
+37
+00:01:52.320 --> 00:01:55.640
+in small meals, not in very large code dumps.
+
+38
+00:01:55.640 --> 00:02:00.500
+People get overloaded, and overwhelmed when you give them a lot of code at once and it's
+
+39
+00:02:00.500 --> 00:02:06.030
+very difficult to test individual parts if a lot of things are done at once.
+
+40
+00:02:06.030 --> 00:02:10.190
+It's okay if not everything will work until you're done,
+
+41
+00:02:10.190 --> 00:02:15.230
+people can still digest things bit by bit with the idea in the end it will all work.
+
+42
+00:02:15.230 --> 00:02:16.790
+Don't be thin skinned,
+
+43
+00:02:16.790 --> 00:02:19.210
+you may get quite a bit of criticism,
+
+44
+00:02:19.210 --> 00:02:23.700
+some of them may be rather blunt and difficult to deal with,
+
+45
+00:02:23.700 --> 00:02:26.755
+they may even go over the line and be offensive.
+
+46
+00:02:26.755 --> 00:02:28.880
+If somebody is being offensive,
+
+47
+00:02:28.880 --> 00:02:32.780
+it's a good idea to rely on members of the community who
+
+48
+00:02:32.780 --> 00:02:36.410
+have been around for a long time to try to calm things down,
+
+49
+00:02:36.410 --> 00:02:41.045
+resolve issues, and let them be the one that get rid of trolls if necessary.
+
+50
+00:02:41.045 --> 00:02:45.975
+It's rare that people have to be removed from a community, but it does happen.
+
+51
+00:02:45.975 --> 00:02:49.159
+Don't discriminate or offend - this is pretty obvious,
+
+52
+00:02:49.159 --> 00:02:52.055
+but it's very unwelcome to do any kind of
+
+53
+00:02:52.055 --> 00:02:58.470
+discriminatory or offensive conduct with respect to any kind of category such as race,
+
+54
+00:02:58.470 --> 00:03:01.385
+sex, sexual preference, religion,
+
+55
+00:03:01.385 --> 00:03:04.315
+national origin, politics, et cetera.
+
+56
+00:03:04.315 --> 00:03:07.490
+It's very often the case very different people with
+
+57
+00:03:07.490 --> 00:03:11.775
+very different politics, from all over the world, different religions work together.
+
+58
+00:03:11.775 --> 00:03:15.230
+This is a great thing and it should not be interfered with.
+
+59
+00:03:15.230 --> 00:03:19.580
+Be patient! Don't expect everything at once. Long-term relationships will
+
+60
+00:03:19.580 --> 00:03:24.530
+really pay off. There are contributions which are rejected,
+
+61
+00:03:24.530 --> 00:03:26.930
+because somebody just throws them over the fence,
+
+62
+00:03:26.930 --> 00:03:30.710
+and leaves and doesn't intend on maintaining them for the future,
+
+63
+00:03:30.710 --> 00:03:34.420
+so even if the work is good, it's unacceptable to include it.
+
+64
+00:03:34.420 --> 00:03:39.600
+So, that's just a few tips for successfully working in an open source community.

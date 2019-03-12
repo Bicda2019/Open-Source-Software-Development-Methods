@@ -1,0 +1,98 @@
+
+
+1
+00:00:00.000 --> 00:00:09.465
+Bu modülde açık kaynaklı projelerde çalışmaktan bahsedeceğiz.
+
+2
+00:00:09.465 --> 00:00:12.180
+Başarılı olmak için neyin gerekli olduğu hakkında konuşacağız 
+
+3
+00:00:12.180 --> 00:00:15.050
+ve uzun ömürlü başarılı projelere örnekler vereceğiz.
+
+4
+00:00:15.050 --> 00:00:18.185
+Yapmanız gereken çeşitli davranışlardan bahsedeceğiz
+
+5
+00:00:18.185 --> 00:00:20.370
+açık kaynak kodlu bir proje üzerinde çalışmaya başladığınızda
+
+6
+00:00:20.370 --> 00:00:23.300
+neye hevesli olduğunuzu anlamalısınız.
+
+7
+00:00:23.300 --> 00:00:26.060
+Başkalarıyla birlikte uyumlu çalışmayı öğrenmelisiniz
+
+8
+00:00:26.060 --> 00:00:27.370
+egonuzu bırakmalısınız,
+
+9
+00:00:27.370 --> 00:00:30.390
+birileri kabalaşırsa onlara saldırgan olmayın.
+
+10
+00:00:30.390 --> 00:00:32.840
+Onlara karşı hoşgörülü olmayın ama
+
+11
+00:00:32.840 --> 00:00:37.035
+böyle insanlarla uğraşmak için topluluğun daha kıdemli, çoksesliliği teşvik eden  
+
+12
+00:00:37.035 --> 00:00:41.120
+üyelerine güvenin. Çalışacağınız projelerde 
+
+13
+00:00:41.120 --> 00:00:45.025
+dünyanın heryerinden insanlar olacaktır, onların kültürlerine saygı duymanız gerekmektedir.
+
+
+14
+00:00:45.025 --> 00:00:48.060
+Sürekli Entegrasyon yöntemleri, Sürekli Entegrasyon(Continuous Integration), 
+
+15
+00:00:48.060 --> 00:00:51.510
+Teslimat ve Dağıtım yöntemleri (Delivery and Deployment) üzerinde duracağız
+
+16
+00:00:51.510 --> 00:00:54.080
+Değişikliklerin son kullanıcıya hızla yayılmasını sağlamak için
+
+17
+00:00:54.080 --> 00:00:56.950
+günümüzde yaygın olarak kullanılan yöntemler sayesinde ,
+
+18
+00:00:56.950 --> 00:01:01.765
+Bazen değişiklikler ilk teklif edildiği ve yapıldığı gün içinde yayınlanır .
+
+19
+00:01:01.765 --> 00:01:04.290
+Son olarak lisanslar hakkında konuşacağız.
+
+20
+00:01:04.290 --> 00:01:07.635
+İki ana lisans sınıfı hakkında konuşacağız,
+
+21
+00:01:07.635 --> 00:01:13.610
+BSD gibi "izin verilen" lisanslar ve GPL gibi daha "kısıtlayıcı" lisanslar.
+
+22
+00:01:13.610 --> 00:01:18.740
+Belirli bir lisansı seçtiğinizde sahip olacağınız sonuçlardan, 
+
+23
+00:01:18.740 --> 00:01:21.675
+lisans seçiminde neyin önemli olması gerektiğinden bahsedeceğiz 
+
+24
+00:01:21.675 --> 00:01:27.240
+ve bunu anlamaya çalışmak için  bir alıştırma yapacağız.
