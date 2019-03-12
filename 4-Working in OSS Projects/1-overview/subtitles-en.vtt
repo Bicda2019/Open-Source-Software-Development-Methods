@@ -1,0 +1,97 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:09.465
+In this module, we will be talking about working in open source projects.
+
+2
+00:00:09.465 --> 00:00:12.180
+We'll talk about what is required to be successful and
+
+3
+00:00:12.180 --> 00:00:15.050
+give examples of long-lived successful projects.
+
+4
+00:00:15.050 --> 00:00:18.185
+We'll talk about various behaviors you should have,
+
+5
+00:00:18.185 --> 00:00:20.370
+you should figure out what itch it is you want to
+
+6
+00:00:20.370 --> 00:00:23.300
+scratch when you begin working on an open source project.
+
+7
+00:00:23.300 --> 00:00:26.060
+You should learn to work and play well with others,
+
+8
+00:00:26.060 --> 00:00:27.370
+leave your ego at the door,
+
+9
+00:00:27.370 --> 00:00:30.390
+don't take offense if somebody's a little bit nasty,
+
+10
+00:00:30.390 --> 00:00:32.840
+don't respond in kind and rely on
+
+11
+00:00:32.840 --> 00:00:37.035
+more senior members of the community to deal with people like that,
+
+12
+00:00:37.035 --> 00:00:41.120
+encourage diversity. You'll be working with people in
+
+13
+00:00:41.120 --> 00:00:45.025
+projects from all over the world and you have to respect their cultures, etc.
+
+14
+00:00:45.025 --> 00:00:48.060
+We will have a whole topic on Continuous Integration methods,
+
+15
+00:00:48.060 --> 00:00:51.510
+Continuous Integration, Delivery and Deployment,
+
+16
+00:00:51.510 --> 00:00:54.080
+methods which are in wide use today to enable
+
+17
+00:00:54.080 --> 00:00:56.950
+changes to rapidly propagate all the way to the end user,
+
+18
+00:00:56.950 --> 00:01:01.765
+sometimes within the day that changes are first proposed and work done.
+
+19
+00:01:01.765 --> 00:01:04.290
+Finally, we will talk about licensing issues.
+
+20
+00:01:04.290 --> 00:01:07.635
+We'll talk about the two main classes of licenses,
+
+21
+00:01:07.635 --> 00:01:13.610
+permissive licenses, such as BSD, and more restrictive licenses, such as the GPL.
+
+22
+00:01:13.610 --> 00:01:18.740
+We'll talk about the implications you have when you choose a particular license,
+
+23
+00:01:18.740 --> 00:01:21.675
+what should be important in your choice of a license,
+
+24
+00:01:21.675 --> 00:01:27.240
+and we'll have an exercise where you get to do some work on trying to figure that out.
