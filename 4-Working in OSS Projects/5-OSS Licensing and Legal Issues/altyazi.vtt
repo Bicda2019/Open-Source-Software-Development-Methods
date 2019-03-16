@@ -2,7 +2,7 @@ WEBVTT
 
 1
 00:00:00.020 --> 00:00:06.440
-Açık kaynak kodlu yazılım lisansları ve bunlara dahil olan bazı yasal konular ve ürününüz için 
+Açık kaynak kodlu yazılım lisansları ve bunlarla ilgili bazı yasal konular ve ürününüz için 
 
 2
 00:00:06.440 --> 00:00:10.600
@@ -10,11 +10,11 @@ ne tür bir lisansın uygun olduğunu nasıl belirleyeceğinize dair kısa bir t
 
 3
 00:00:10.600 --> 00:00:15.380
-Çok çeşitli açık kaynaklı yazılım lisansları vardır,,
+Çok çeşitli açık kaynaklı yazılım lisansları vardır,
 
 4
 00:00:15.380 --> 00:00:19.939
-ama restrictive(kısıtlayıcı) ve permissive(serbest) olarak 2 kategoriye ayrılır.
+ama restrictive(kısıtlayıcı) ve permissive(serbest) olarak 2 ana kategoriye ayrılır.
 
 5
 00:00:19.940 --> 00:00:25.420
@@ -30,7 +30,7 @@ yazılımınıza bağlı olarak kapalı ürünler yapma girişimlerinde güçlü
 
 8
 00:00:35.160 --> 00:00:41.980
-Kodda yapılacak herhangi bir değişiklik, gelecekteki alıcılara, ürünlerini yeniden oluşturabilecekleri şekilde aktif hale getirildi.
+Kodda yapılacak herhangi bir değişiklik, gelecekteki alıcılara, ürünlerini yeniden oluşturabilecekleri şekilde aktif edilir.
 
 9
 00:00:41.980 --> 00:00:48.320
@@ -82,7 +82,7 @@ Bu, genel FUD (Fear, Uncertainty, and Doubt) yani Korku, Belirsizlik ve Şüphe 
 
 21
 00:01:46.420 --> 00:01:50.980
-Bu terim aslında 1920lere kadar uzanıyor.
+Bu terim aslında 1920lere kadar uzanır.
 
 22
 00:01:50.980 --> 00:01:55.920
@@ -130,11 +130,11 @@ Bununla ilgili çok fazla deneyim vardır. Yani, gerçekten bu doğru değildir
 
 33
 00:03:01.840 --> 00:03:05.160
-OSS sizi başkalarına patent hakkı vermeye zorlar.
+"OSS sizi başkalarına patent hakkı vermeye zorlar.
 
 34
 00:03:05.160 --> 00:03:10.200
-ve uygun bir yasal analize ihtiyacınız vardır, ancak bu kesinlikle doğru değildir.
+ve uygun bir yasal analize ihtiyacınız vardır" derler, ancak bu kesinlikle doğru değildir.
 
 35
 00:03:10.200 --> 00:03:19.300
@@ -154,11 +154,11 @@ sizi destekleyebilecek sorunlarınızı çözmenize yardımcı olabilecek toplul
 
 39
 00:03:37.400 --> 00:03:47.260
-Ve nihayet, açık kaynaklı yazılım tehlikeleri önlemek için çok fazla yasal yardım gerektirir,,
+"Açık kaynaklı yazılım tehlikeleri önlemek için çok fazla yasal yardım gerektirir,,
 
 40
 00:03:47.260 --> 00:03:51.380
-bu nedenle, çok pahalı olur. Bu saçmalıktır.
+bu nedenle, çok pahalı olur" derler . Bu saçmalıktır.
 
 41
 00:03:51.380 --> 00:03:59.840
@@ -174,23 +174,23 @@ Aslında, açık kaynaklı yazılım bazen bunu kolaylaştırır,,
 
 44
 00:04:06.400 --> 00:04:11.260
-Yasal sorunlara yol açabilecek şeyleri hızlı bir şekilde yakalayabilirsiniz.
+Yasal sorunlara yol açabilecek şeyleri hızlı bir şekilde yakalayabilir.
 
 45
 00:04:11.260 --> 00:04:16.340
-Bu yüzden, ne tür bir ürüne sahip olursanız olun, avukatlarla etkileşime girmeniz gerekecektir..
+Ne tür bir ürüne sahip olursanız olun, avukatlarla etkileşime girmeniz gerekecektir;
 
 46
 00:04:16.340 --> 00:04:24.720
-Kadrolu olabilirler, dışarıda olabilirler, ancak birilerinin telif haklarını ve lisansları ihlal etmediğinizden emin olması gerekir..
+birilerinin telif haklarını ve lisansları ihlal etmediğinizden emin olması gerekir.
 
 47
 00:04:24.720 --> 00:04:26.440
-Çok çeşitli lisans vardır.
+Çok çeşitli lisanslar vardır.
 
 48
 00:04:26.440 --> 00:04:36.370
-Dikkatli kararlar vermelisiniz, ancak bir kez ürünün ve projenin  DNA'sına konulduktan sonra, buna saygı gösterilmesi oldukça kolaydır.
+Dikkatli kararlar vermelisiniz, ancak bir kez ürünün ve projenin DNA'sına konulduktan sonra, buna saygı gösterilmesi oldukça kolaydır.
 
 49
 00:04:36.370 --> 00:04:43.840
@@ -198,7 +198,7 @@ Bu eğitimin bir parçası, geliştiricilerin açık kaynak kodlu yazılımla ç
 
 50
 00:04:43.840 --> 00:04:53.360
-Bu yüzden, yanlışlıkla ya da cahil bir şekilde kuralları ihlal edilmez ve yazılımlarına, orada olmaması gereken ürünleri dahil edilmez.
+Bu yüzden, yanlışlıkla ya da cahil bir şekilde kurallar ihlal edilmez ve yazılımlarına, orada olmaması gereken ürünler konulmaz.
 
 51
 00:04:53.360 --> 00:05:00.160

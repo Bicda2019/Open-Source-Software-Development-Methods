@@ -1,8 +1,8 @@
-WEBVTT
+
 
 1
 00:00:00.000 --> 00:00:01.955
-açık kaynaklı bir projede
+Açık kaynaklı bir projede
 
 2
 00:00:01.955 --> 00:00:07.290
@@ -10,15 +10,15 @@ başarılı bir şekilde çalışmak için bazı ipuçları vererek devam edelim
 
 3
 00:00:07.290 --> 00:00:11.025
-Her şeyden önce, yazılım koruyucul bakıcıları(maintainers) ve liderliği belirleyin.
+Her şeyden önce, yazılım bakıcılarını(maintainers) ve liderliği öğrenin.
 
 4
 00:00:11.025 --> 00:00:13.885
-ışlerini ve nasıl çalıştıklarını inceleyin.
+onların görevlerini ve nasıl çalıştıklarını inceleyin.
 
 5
 00:00:13.885 --> 00:00:16.470
-Belki de yardımsever(benevolent ) bir diktatör 
+Belki de yardımsever(benevolent)bir diktatör 
 
 6
 00:00:16.470 --> 00:00:19.424
@@ -26,15 +26,15 @@ olarak adlandırılan tek bir temel bakıcı(maintainer) vardır.
 
 7
 00:00:19.424 --> 00:00:25.220
-Daha büyük olasılıkla, bazı kilit bileşenlerden sorumlu alt sistem bakıcıları(maintainers) da vardır.
+Bazı kilit bileşenlerden sorumlu alt sistem bakıcıları(maintainers) da olabilir.
 
 8
 00:00:25.220 --> 00:00:30.610
-Linux çekirdeği bunun işe yarayabileceği için iyi bir modeldir
+Örneğin Linux çekirdeği böyle bir modeldir
 
 9
 00:00:30.610 --> 00:00:33.270
-Bir bakıcının işi, çalışmaya ek olarak yazılıma gönderilen(submit)
+Bir bakıcının işi, çalışmaya ek olarak projeye gönderilen(submit)
 
 10
 00:00:33.270 --> 00:00:37.480
@@ -42,7 +42,7 @@ her şeyi anlamak ve gözden geçirmektir.
 
 11
 00:00:37.480 --> 00:00:42.815
-Sadece bir komplikasyon veya hataları oluşturmadığınızdan emin olmalısınız.
+Bir komplikasyon veya hata oluşturmadığınızdan emin olmalısınız.
 
 12
 00:00:42.815 --> 00:00:45.080
@@ -50,14 +50,15 @@ Bakıcı, başkalarının gönderdiği işlerde
 
 13
 00:00:45.080 --> 00:00:48.605
-herhangi bir uyumsuzluk,çakışma(conflict)olmadığından emin olmalıdır  
+herhangi bir uyumsuzluk,çakışma(conflict)olmadığından emin olmalıdır. 
+
 14
 00:00:48.605 --> 00:00:51.620
-işlerini zamanında yapmak zorundadırlar,
+İşlerini zamanında yapmak zorundadırlar,
 
 15
 00:00:51.620 --> 00:00:54.935
-ve insanları sabırsız veya memnuniyetsiz bırakmamalıdırlar,
+insanları sabırsız veya memnuniyetsiz bırakmamalıdırlar,
 
 16
 00:00:54.935 --> 00:00:57.725
@@ -65,7 +66,7 @@ ve insanlara saygıyla davranmak zorundadırlar.
 
 17
 00:00:57.725 --> 00:01:00.030
-Anlaşmanız gereken koruyucularla 
+Muhatap olacağınız koruyucularla(bakıcılarla) 
 
 18
 00:01:00.030 --> 00:01:02.285
@@ -73,7 +74,7 @@ iyi bir ilişki içinde olmanız çok önemlidir.
 
 19
 00:01:02.285 --> 00:01:04.325
-Saygılı ve  sabırlı olun.
+Saygılı ve sabırlı olmalısınız.
 
 20
 00:01:04.325 --> 00:01:05.660
@@ -85,7 +86,7 @@ diğer kişilerin gönderimlerini inceleyin,
 
 22
 00:01:07.390 --> 00:01:11.290
-Hata ayıklamaya yardımcı olun, yalnızca kendi işinizde hizmet beklemeyin.
+hata ayıklamaya yardımcı olun, yalnızca kendi işinizde hizmet beklemeyin.
 
 23
 00:01:11.290 --> 00:01:13.410
@@ -93,31 +94,31 @@ Erken davranmak
 
 24
 00:01:13.410 --> 00:01:14.690
-Ve açık çalışmak önemlidir
+ve açık çalışmak önemlidir
 
 25
 00:01:14.690 --> 00:01:18.940
-ınsanlardan bir geri bildirim almadan çok ileri gitmeyin
+insanlardan geri bildirim almadan çok ileri gitmeyin
 
 26
 00:01:18.940 --> 00:01:23.230
-muhtemelen projede çok fazla geçmiş kayıt vardır. Senin fikrin eski olabilir.
+muhtemelen projede çok fazla geçmiş kayıt vardır. Fikriniz eski olabilir.
 
 27
 00:01:23.230 --> 00:01:24.860
-Belki de tartışıldı ve
+Belki de tartışılmıştır ve
 
 28
 00:01:24.860 --> 00:01:26.540
-Geçmişte reddedildi,
+daha önce reddedilmiştir.
 
 29
 00:01:26.540 --> 00:01:29.755
-ama belki tekrar bakmaya değerdir 
+Ama belki tekrar bakmaya değerdir 
 
 30
 00:01:29.755 --> 00:01:31.375
-Ne olursa olsun tarihi bilmelisin.
+Ne olursa olsun projenin geçmişini bilmelisin.
 
 31
 00:01:31.375 --> 00:01:34.965
@@ -125,15 +126,15 @@ Fikirleri ortaya atmayı önermek ve birinin bir şeyler yapması
 
 32
 00:01:34.965 --> 00:01:38.335
-gerektiğini söylemek yanlıştır, göz ardı edilmek için iyi bir yoldur
+gerektiğini söylemek yanlıştır, göz ardı edilmek için iyi bir yoldur.
 
 33
 00:01:38.335 --> 00:01:40.590
-ınsanlar senin bir şeyler üzerinde çalışmanı bekler.
+İnsanlar senin bir şeyler üzerinde çalışmanı beklerler.
 
 34
 00:01:40.590 --> 00:01:45.150
-Yaparken başkalarının işinize bakmasını sağlayamazsanız,
+İşini yaparken başkalarının işinize bakmasını sağlayamazsanız,
 
 35
 00:01:45.150 --> 00:01:47.385
@@ -145,7 +146,7 @@ açık kaynakta çalışmayın.
 
 37
 00:01:52.320 --> 00:01:55.640
-sindirilebilir parçalarda , küçük öğünlerde katkıda bulunmak önemlidir.
+sindirilebilir parçalarla, küçük öğünlerle katkıda bulunmak önemlidir.
 
 38
 00:01:55.640 --> 00:02:00.500
@@ -169,11 +170,11 @@ Zayıf ve alıngan olmayın,
 
 43
 00:02:16.790 --> 00:02:19.210
-birazcık eleştiri alabilirsin
+eleştiri alabilirsiniz, bunların
 
 44
 00:02:19.210 --> 00:02:23.700
-Bazıları oldukça anlayışsız ve başa çıkması zor olabilir,
+bazıları oldukça anlayışsız ve başa çıkması zor olabilir,
 
 45
 00:02:23.700 --> 00:02:26.755
@@ -193,19 +194,20 @@ Onlar sorunları çözerek ve gerektiğinde trollerden kurtararak.
 
 49
 00:02:36.410 --> 00:02:41.045
-Sakinliği sağlamak için uzun zamandır buralardalar.
+sakinliği sağlamak için uzun zamandır buradalar.
 
 50
 00:02:41.045 --> 00:02:45.975
-ınsanların bir topluluktan çıkarılması nadirdir, fakat bazen olur
+İnsanların bir topluluktan çıkarılması nadirdir, fakat bazen olur
 
 51
 00:02:45.975 --> 00:02:49.159
-Bu çok açıktır ki Ayrımcılık yapma veya hakaret etme,
+Ayrımcılık yapma veya hakaret etme!
 
 52
 00:02:49.159 --> 00:02:52.055
 Irk, cinsiyet, cinsel tercih, din, ulusal köken, siyaset
+
 53
 00:02:52.055 --> 00:02:58.470
 gibi herhangi bir kategoriye ilişkin ayrımcı 
@@ -216,7 +218,7 @@ veya hakaret içeren,
 
 55
 00:03:01.385 --> 00:03:04.315
-davranışlar hoş karşılanmaz
+davranışlar hoş karşılanmaz. OSS projelerde
 
 56
 00:03:04.315 --> 00:03:07.490
@@ -228,27 +230,28 @@ Farklı siyasetlerden birçok insan birlikte çalışır.
 
 58
 00:03:11.775 --> 00:03:15.230
-Bu harika bir şeydir  ve bozulmamalıdır.
+Bu harika bir şeydir ve bozulmamalıdır.
 
 59
 00:03:15.230 --> 00:03:19.580
-Sabırlı ol! Her şeyi bir kerede beklemeyin. Uzun vadeli ilişkiler 
+Sabırlı olun! Her şeyin bir kerede olmasını beklemeyin. Uzun vadeli ilişkiler 
 
 60
 00:03:19.580 --> 00:03:24.530
-gerçekten işe yarayacaktır,iyi iş çıkarmalarına rağmen 
-	
+gerçekten işe yarayacaktır. İyi iş çıkarmalarına rağmen 
+
 61
 00:03:24.530 --> 00:03:26.930
-Böyle davrandıkları için reddedilen katkılar oluyor, 
+yanlış davrandıkları için reddedilenler olmaktadır, 
 
 62
 00:03:26.930 --> 00:03:30.710
-çünkü birileri onları çitin üzerine atıyor, ayrılıyorlar 
+çünkü birileri onları çitin üzerine atar, ayrılırlar 
+
 63
 00:03:30.710 --> 00:03:34.420
-veya kimse onları gelecek için korumaya niyetli olmuyor
+veya kimse onları gelecek için korumaya niyetli olmaz
 
 64
 00:03:34.420 --> 00:03:39.600
-Bu, açık kaynak kodlu bir toplulukta başarılı bir şekilde çalışmak için sadece birkaç ipucuydu
+Bu, açık kaynak kodlu bir toplulukta başarılı bir şekilde çalışmak için sadece birkaç ipucuydu.

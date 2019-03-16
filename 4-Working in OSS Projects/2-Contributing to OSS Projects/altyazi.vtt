@@ -26,11 +26,11 @@ iş akışının ne olduğunu, projenin kapsamını
 
 7
 00:00:22.100 --> 00:00:23.640
-bilmeniz gerekir, böylece projeye ait olmayan şeyleri
+bilmeniz gerekir, böylece projeye 
 
 8
 00:00:23.640 --> 00:00:26.970
-ya da en azından İnsanların değerlendirmesini istemeksizin 
+ait olmayan şeyleri insanların değerlendirmesini istemeksizin 
 
 9
 00:00:26.970 --> 00:00:32.130
@@ -38,19 +38,19 @@ projeye getirmeye çalışmazsınız
 
 10
 00:00:32.130 --> 00:00:35.395
-Projelerin hangi iletişim yöntemlerini kullandığını görün.
+Projenin hangi iletişim yöntemleri kullandığına bakın.
 
 11
 00:00:35.395 --> 00:00:36.950
-Genellikle, mail listeleri vardır,
+Genellikle, bir mail listesi vardır,
 
 12
 00:00:36.950 --> 00:00:40.240
-mail listeleri arşivleri vardır, böylece geçmişi görebilir
+mail listesi arşivi vardır, böylece geçmişi görebilir,
 
 13
 00:00:40.240 --> 00:00:43.645
-ve belki de katılabileceğiniz sohbet odaları olabilir.
+belki de katılabileceğiniz sohbet odaları bulabilirsiniz.
 
 14
 00:00:43.645 --> 00:00:45.990
@@ -58,32 +58,31 @@ Projeye destek nasıl yapılıyor?
 
 15
 00:00:45.990 --> 00:00:49.190
-Git gibi revizyon kontrol sistemleri ile mi yapılıyor?
+Git gibi revizyon kontrol sistemi ile mi yapılıyor?
 
 16
 00:00:49.190 --> 00:00:52.370
-E-posta yoluyla mı yapılıyor?...vb 
+E-posta yoluyla mı yapılıyor?, vb. 
 
 17
 00:00:52.370 --> 00:00:54.070
-Geçmişi öğrenin, bu sorularınıza cevap bulun.
+Geçmişi öğrenin, bu sorulara cevap bulun.
 
 18
 00:00:54.070 --> 00:00:58.040
-Birçok projenin, bir projede yeni katılımcılara mentor olarak
+Birçok projenin, yeni katılımcılara mentor olarak
 
 19
 00:00:58.040 --> 00:01:02.345
 hizmet vermeye gönüllü katılımcıları vardır.
 
-
 20
 00:01:02.345 --> 00:01:07.535
-Uzun vadede, bu herkes için zaman kazandırır ve daha az anlaşmazlığa neden olur.
+Uzun vadede, bu herkese zaman kazandırır ve anlaşmazlıkları önler.
 
 21
 00:01:07.535 --> 00:01:14.430
-Kodlamaya başlamadan önce, test etmek ve hataları bulmak.. vb.
+Kodlamaya başlamadan önce, test etmek ve hataları bulmak, vb.
 
 22
 00:01:14.430 --> 00:01:15.880
@@ -95,7 +94,7 @@ Bu, projeler için genellikle katkı sunmanın en kısa yoludur.
 
 24
 00:01:19.745 --> 00:01:24.875
-Projeyi bir programlama dili veya bir komut dosyası dili öğrenmek için kullanmayın
+Projeyi bir programlama dili öğrenmek için kullanmayın
 
 25
 00:01:24.875 --> 00:01:26.750
@@ -107,11 +106,11 @@ Projenin yaptığı bu değildir.
 
 27
 00:01:28.910 --> 00:01:35.650
-Katkıda bulunmaya başladığınızda kodunuzu ve önerilerinizi gözden geçirmeyi erkenden talep edin, 
+Katkıda bulunmaya başladığınızda kodunuzun ve önerilerinizin gözden geçirilmesini erkenden talep edin, 
 
 28
 00:01:35.650 --> 00:01:39.490
-bekleyip daha sonra insanlara çok fazla iş atmamak gerekir
+bekleyip daha sonra insanlara çok fazla iş atmamak gerekir.
 
 29
 00:01:39.490 --> 00:01:43.245
@@ -119,15 +118,15 @@ Bu bir kerede çok fazla işin içinden çıkılamamasına sebep olur
 
 30
 00:01:43.245 --> 00:01:49.610
-Kibar, saygılı olmaya, kavgacı tartışmalardan kaçınmaya ve kesinlikle müstehcenlik
- 
+Kibar, saygılı olmaya, kavgadan kaçınmaya ve kesinlikle müstehcenlik
+
 31
 00:01:49.610 --> 00:01:56.445
 veya diğer kötü davranışları kullanmamaya,"trollememeye" dikkat edilmelidir.
 
 32
 00:01:56.445 --> 00:01:59.255
-Projenin kendi DNA'sı var.
+Projenin kendi DNA'sı vardır.
 
 33
 00:01:59.255 --> 00:02:02.340
@@ -135,11 +134,11 @@ Zaten kurulmuş bir topluluk ve etiği,
 
 34
 00:02:02.340 --> 00:02:04.135
-ve liderlik yapısı var.
+ve liderlik yapısı vardır.
 
 35
 00:02:04.135 --> 00:02:06.425
-Ne olduğunu anladığından emin olmalısın.
+Ne olduğunu anladığından emin olmalısınız.
 
 36
 00:02:06.425 --> 00:02:08.150
@@ -155,7 +154,7 @@ Bu büyük bir proje mi, küçük bir proje mi?
 
 39
 00:02:13.055 --> 00:02:20.090
-Çok aktif mi, yoksa aralıklı aktivite patlamasıyla sessiz görünümlü mü?
+Çok aktif mi, yoksa aralıklı aktivite patlaması mı var?
 
 40
 00:02:20.090 --> 00:02:23.440
@@ -163,7 +162,7 @@ Toplu veya tekil bir yönetişim(governance) yapısına mı sahip?
 
 41
 00:02:23.440 --> 00:02:26.150
-Başka bir deyişle, her şeye karar veren bir komite var mı?
+Başka bir deyişle, her şeye karar veren bir komite mi var?
 
 42
 00:02:26.150 --> 00:02:29.550
@@ -171,7 +170,7 @@ Ya da nihai kararları veren bir ya da iki kişi mi?
 
 43
 00:02:29.550 --> 00:02:33.750
-Proje yazılımı için ne tür bir lisans kullanıyor?
+Proje ne tür bir lisans kullanıyor?
 
 44
 00:02:33.750 --> 00:02:36.980
@@ -183,44 +182,43 @@ bekleniyor mu?
 
 46
 00:02:40.960 --> 00:02:46.890
-Unutmayın, açık kaynak kodlu projelerin çoğu güzel başlamasına .
+Unutmayın, açık kaynak kodlu projelerin çoğu güzel başlamasına rağmen
 
 47
 00:02:46.890 --> 00:02:51.170
-bir sıçrama yaşayamıyor. Bir projede iyi bir yönetişim 
+bir sıçrama yaşayamıyor. Bir projede iyi bir yönetim 
 
 48
 00:02:51.170 --> 00:02:53.240
 ve iyi katkıda bulunanların yanı sıra,
 
-
 49
 00:02:53.240 --> 00:02:56.795
-Projeye olan ihtiyaç için özel bir fırsat olmalıdır.
+projeye olan ihtiyaç için özel bir fırsat olmalıdır.
 
 50
 00:02:56.795 --> 00:02:59.210
-Çoğu proje başarısız olur, ancak sorun değildir
+Çoğu proje başarısız oluyor, ancak bu sorun değildir
 
 51
 00:02:59.210 --> 00:03:05.270
-Katkıda bulunanların çoğu, OSS projelerle ilgilenir çünkü bunun bir nedeni vardır.
+Katkıda bulunanların çoğu, OSS projelerle ilgilenir çünkü nedenleri vardır.
 
 52
 00:03:05.270 --> 00:03:10.235
-Bazı hatalar veya problemlerle karşılaşırlar.
+Bazı hata veya problemlerin farkına varırlar,
 
 53
 00:03:10.235 --> 00:03:14.970
-İşlerine yeni şeyler öğrenmek veya eklemek isterler
+İşlerine yeni şeyler öğrenerek eklemek isterler
 
 54
 00:03:14.970 --> 00:03:17.235
-Ya da sadece yeni bir şeyler öğrenmek isterler.
+ya da sadece yeni bir şeyler öğrenmek isterler.
 
 55
 00:03:17.235 --> 00:03:19.490
-Bu nedenle, bir projeye neden katıldığınızı ,
+Bu nedenle, bir projeye neden katıldığınızı,
 
 56
 00:03:19.490 --> 00:03:22.500
@@ -228,11 +226,11 @@ sizi neyin heveslendirdiğini bulmalısınız.
 
 57
 00:03:22.500 --> 00:03:30.000
-Sıklıkla yapılacak basit temizlik işlerinin ya da diğer basit işlerin bir listesi vardır.
+Sıklıkla yapılacak basit işlerin bir listesi vardır.
 
 58
 00:03:30.000 --> 00:03:32.210
-buna  hademe listesi(janitor's list) denir.
+buna hademe listesi(janitor's list) denir.
 
 59
 00:03:32.210 --> 00:03:35.435
@@ -240,19 +238,19 @@ Bu yeni başlayanlar için iyi bir şeydir
 
 60
 00:03:35.435 --> 00:03:39.265
-Ayrıca, ilk başta önemsiz gibi görülen yamaları
+Projeye ilk başladığınızda önemsiz gibi görülen yamaları
 
 61
 00:03:39.265 --> 00:03:44.410
-yapmamaya çalışın , kodun diğer kısımlarını etkileyebilirsiniz.
+yapmamaya çalışın, kodun diğer kısımlarını etkileyebilirsiniz.
 
 62
 00:03:44.410 --> 00:03:46.270
-Bu şeyler kabul edilmekle birlikte,
+"Önemsiz" işlerle çalışmaya başlayıp
 
 63
 00:03:46.270 --> 00:03:49.990
-önemsiz çalışmaya başlayıp sonraları önemli katkılarda bulunan
+sonraları önemli katkılarda bulunan
 
 64
 00:03:49.990 --> 00:03:56.280
