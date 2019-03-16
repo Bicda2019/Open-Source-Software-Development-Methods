@@ -1,97 +1,267 @@
-WEBVTT
+
 
 1
-00:00:00.000 --> 00:00:09.465
-In this module, we will be talking about working in open source projects.
+00:00:00.000 --> 00:00:05.545
+Bu derste, açık kaynaklı bir yazılım projesinde nasıl çalışılacağı hakkında konuşacağız.
 
 2
-00:00:09.465 --> 00:00:12.180
-We'll talk about what is required to be successful and
+00:00:05.545 --> 00:00:08.455
+Önce ekosistemi,
 
 3
-00:00:12.180 --> 00:00:15.050
-give examples of long-lived successful projects.
+00:00:08.455 --> 00:00:12.860
+topluluğu ve herhangi bir projenin yöntemlerini anlamak önemlidir.
 
 4
-00:00:15.050 --> 00:00:18.185
-We'll talk about various behaviors you should have,
+00:00:12.860 --> 00:00:16.484
+Bu sadece saygıyla ilgili bir meseledir.
 
 5
-00:00:18.185 --> 00:00:20.370
-you should figure out what itch it is you want to
+00:00:16.484 --> 00:00:18.790
+Öncelikle, projeyi araştırmanız, tarzını anlamanız,
 
 6
-00:00:20.370 --> 00:00:23.300
-scratch when you begin working on an open source project.
+00:00:18.790 --> 00:00:22.100
+iş akışının ne olduğunu, projenin kapsamını 
 
 7
-00:00:23.300 --> 00:00:26.060
-You should learn to work and play well with others,
+00:00:22.100 --> 00:00:23.640
+bilmeniz gerekir, böylece projeye ait olmayan şeyleri
 
 8
-00:00:26.060 --> 00:00:27.370
-leave your ego at the door,
+00:00:23.640 --> 00:00:26.970
+ya da en azından İnsanların değerlendirmesini istemeksizin 
 
 9
-00:00:27.370 --> 00:00:30.390
-don't take offense if somebody's a little bit nasty,
+00:00:26.970 --> 00:00:32.130
+projeye getirmeye çalışmazsınız
 
 10
-00:00:30.390 --> 00:00:32.840
-don't respond in kind and rely on
+00:00:32.130 --> 00:00:35.395
+Projelerin hangi iletişim yöntemlerini kullandığını görün.
 
 11
-00:00:32.840 --> 00:00:37.035
-more senior members of the community to deal with people like that,
+00:00:35.395 --> 00:00:36.950
+Genellikle, mail listeleri vardır,
 
 12
-00:00:37.035 --> 00:00:41.120
-encourage diversity. You'll be working with people in
+00:00:36.950 --> 00:00:40.240
+mail listeleri arşivleri vardır, böylece geçmişi görebilir
 
 13
-00:00:41.120 --> 00:00:45.025
-projects from all over the world and you have to respect their cultures, etc.
+00:00:40.240 --> 00:00:43.645
+ve belki de katılabileceğiniz sohbet odaları olabilir.
 
 14
-00:00:45.025 --> 00:00:48.060
-We will have a whole topic on Continuous Integration methods,
+00:00:43.645 --> 00:00:45.990
+Projeye destek nasıl yapılıyor?
 
 15
-00:00:48.060 --> 00:00:51.510
-Continuous Integration, Delivery and Deployment,
+00:00:45.990 --> 00:00:49.190
+Git gibi revizyon kontrol sistemleri ile mi yapılıyor?
 
 16
-00:00:51.510 --> 00:00:54.080
-methods which are in wide use today to enable
+00:00:49.190 --> 00:00:52.370
+E-posta yoluyla mı yapılıyor?...vb 
 
 17
-00:00:54.080 --> 00:00:56.950
-changes to rapidly propagate all the way to the end user,
+00:00:52.370 --> 00:00:54.070
+Geçmişi öğrenin, bu sorularınıza cevap bulun.
 
 18
-00:00:56.950 --> 00:01:01.765
-sometimes within the day that changes are first proposed and work done.
+00:00:54.070 --> 00:00:58.040
+Birçok projenin, bir projede yeni katılımcılara mentor olarak
 
 19
-00:01:01.765 --> 00:01:04.290
-Finally, we will talk about licensing issues.
+00:00:58.040 --> 00:01:02.345
+hizmet vermeye gönüllü katılımcıları vardır.
+
 
 20
-00:01:04.290 --> 00:01:07.635
-We'll talk about the two main classes of licenses,
+00:01:02.345 --> 00:01:07.535
+Uzun vadede, bu herkes için zaman kazandırır ve daha az anlaşmazlığa neden olur.
 
 21
-00:01:07.635 --> 00:01:13.610
-permissive licenses, such as BSD, and more restrictive licenses, such as the GPL.
+00:01:07.535 --> 00:01:14.430
+Kodlamaya başlamadan önce, test etmek ve hataları bulmak.. vb.
 
 22
-00:01:13.610 --> 00:01:18.740
-We'll talk about the implications you have when you choose a particular license,
+00:01:14.430 --> 00:01:15.880
+için gönüllü olmak iyi olur.
 
 23
-00:01:18.740 --> 00:01:21.675
-what should be important in your choice of a license,
+00:01:15.880 --> 00:01:19.745
+Bu, projeler için genellikle katkı sunmanın en kısa yoludur.
 
 24
-00:01:21.675 --> 00:01:27.240
-and we'll have an exercise where you get to do some work on trying to figure that out.
+00:01:19.745 --> 00:01:24.875
+Projeyi bir programlama dili veya bir komut dosyası dili öğrenmek için kullanmayın
+
+25
+00:01:24.875 --> 00:01:26.750
+veya en azından bunun için yardım istemeyin.
+
+26
+00:01:26.750 --> 00:01:28.910
+Projenin yaptığı bu değildir.
+
+27
+00:01:28.910 --> 00:01:35.650
+Katkıda bulunmaya başladığınızda kodunuzu ve önerilerinizi gözden geçirmeyi erkenden talep edin, 
+
+28
+00:01:35.650 --> 00:01:39.490
+bekleyip daha sonra insanlara çok fazla iş atmamak gerekir
+
+29
+00:01:39.490 --> 00:01:43.245
+Bu bir kerede çok fazla işin içinden çıkılamamasına sebep olur
+
+30
+00:01:43.245 --> 00:01:49.610
+Kibar, saygılı olmaya, kavgacı tartışmalardan kaçınmaya ve kesinlikle müstehcenlik
+ 
+31
+00:01:49.610 --> 00:01:56.445
+veya diğer kötü davranışları kullanmamaya,"trollememeye" dikkat edilmelidir.
+
+32
+00:01:56.445 --> 00:01:59.255
+Projenin kendi DNA'sı var.
+
+33
+00:01:59.255 --> 00:02:02.340
+Zaten kurulmuş bir topluluk ve etiği,
+
+34
+00:02:02.340 --> 00:02:04.135
+ve liderlik yapısı var.
+
+35
+00:02:04.135 --> 00:02:06.425
+Ne olduğunu anladığından emin olmalısın.
+
+36
+00:02:06.425 --> 00:02:08.150
+Projenin nereden geldiğini bilin.
+
+37
+00:02:08.150 --> 00:02:10.190
+Başladığından beri çok değişti mi?
+
+38
+00:02:10.190 --> 00:02:13.055
+Bu büyük bir proje mi, küçük bir proje mi?
+
+39
+00:02:13.055 --> 00:02:20.090
+Çok aktif mi, yoksa aralıklı aktivite patlamasıyla sessiz görünümlü mü?
+
+40
+00:02:20.090 --> 00:02:23.440
+Toplu veya tekil bir yönetişim(governance) yapısına mı sahip?
+
+41
+00:02:23.440 --> 00:02:26.150
+Başka bir deyişle, her şeye karar veren bir komite var mı?
+
+42
+00:02:26.150 --> 00:02:29.550
+Ya da nihai kararları veren bir ya da iki kişi mi?
+
+43
+00:02:29.550 --> 00:02:33.750
+Proje yazılımı için ne tür bir lisans kullanıyor?
+
+44
+00:02:33.750 --> 00:02:36.980
+Katkıda bulunanlardan bir anlaşma imzalamaları
+
+45
+00:02:36.980 --> 00:02:40.960
+bekleniyor mu?
+
+46
+00:02:40.960 --> 00:02:46.890
+Unutmayın, açık kaynak kodlu projelerin çoğu güzel başlamasına .
+
+47
+00:02:46.890 --> 00:02:51.170
+bir sıçrama yaşayamıyor. Bir projede iyi bir yönetişim 
+
+48
+00:02:51.170 --> 00:02:53.240
+ve iyi katkıda bulunanların yanı sıra,
+
+
+49
+00:02:53.240 --> 00:02:56.795
+Projeye olan ihtiyaç için özel bir fırsat olmalıdır.
+
+50
+00:02:56.795 --> 00:02:59.210
+Çoğu proje başarısız olur, ancak sorun değildir
+
+51
+00:02:59.210 --> 00:03:05.270
+Katkıda bulunanların çoğu, OSS projelerle ilgilenir çünkü bunun bir nedeni vardır.
+
+52
+00:03:05.270 --> 00:03:10.235
+Bazı hatalar veya problemlerle karşılaşırlar.
+
+53
+00:03:10.235 --> 00:03:14.970
+İşlerine yeni şeyler öğrenmek veya eklemek isterler
+
+54
+00:03:14.970 --> 00:03:17.235
+Ya da sadece yeni bir şeyler öğrenmek isterler.
+
+55
+00:03:17.235 --> 00:03:19.490
+Bu nedenle, bir projeye neden katıldığınızı ,
+
+56
+00:03:19.490 --> 00:03:22.500
+sizi neyin heveslendirdiğini bulmalısınız.
+
+57
+00:03:22.500 --> 00:03:30.000
+Sıklıkla yapılacak basit temizlik işlerinin ya da diğer basit işlerin bir listesi vardır.
+
+58
+00:03:30.000 --> 00:03:32.210
+buna  hademe listesi(janitor's list) denir.
+
+59
+00:03:32.210 --> 00:03:35.435
+Bu yeni başlayanlar için iyi bir şeydir
+
+60
+00:03:35.435 --> 00:03:39.265
+Ayrıca, ilk başta önemsiz gibi görülen yamaları
+
+61
+00:03:39.265 --> 00:03:44.410
+yapmamaya çalışın , kodun diğer kısımlarını etkileyebilirsiniz.
+
+62
+00:03:44.410 --> 00:03:46.270
+Bu şeyler kabul edilmekle birlikte,
+
+63
+00:03:46.270 --> 00:03:49.990
+önemsiz çalışmaya başlayıp sonraları önemli katkılarda bulunan
+
+64
+00:03:49.990 --> 00:03:56.280
+insanlar haline gelen katılımcılar bulmak çok zordur.
+
+65
+00:03:57.160 --> 00:04:03.125
+Bu, açık kaynaklı bir projede nasıl çalışmanız gerektiği hakkında başlangıç konuşmasıydı.
+
+66
+00:04:03.125 --> 00:04:05.930
+Yakında daha fazla ayrıntıya gireceğiz.
