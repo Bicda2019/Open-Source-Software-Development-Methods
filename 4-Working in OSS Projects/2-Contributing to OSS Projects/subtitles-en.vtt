@@ -1,97 +1,265 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:09.465
-In this module, we will be talking about working in open source projects.
+00:00:00.000 --> 00:00:05.545
+In this lesson, we're going to talk about how to work in an open source software project.
 
 2
-00:00:09.465 --> 00:00:12.180
-We'll talk about what is required to be successful and
+00:00:05.545 --> 00:00:08.455
+It's important to understand the ecosystem,
 
 3
-00:00:12.180 --> 00:00:15.050
-give examples of long-lived successful projects.
+00:00:08.455 --> 00:00:12.860
+the community and the methods of any project before diving in.
 
 4
-00:00:15.050 --> 00:00:18.185
-We'll talk about various behaviors you should have,
+00:00:12.860 --> 00:00:16.484
+This is a question simply of respect.
 
 5
-00:00:18.185 --> 00:00:20.370
-you should figure out what itch it is you want to
+00:00:16.484 --> 00:00:18.790
+First, you need to investigate the project,
 
 6
-00:00:20.370 --> 00:00:23.300
-scratch when you begin working on an open source project.
+00:00:18.790 --> 00:00:22.100
+understand its style, what the workflow is,
 
 7
-00:00:23.300 --> 00:00:26.060
-You should learn to work and play well with others,
+00:00:22.100 --> 00:00:23.640
+what the scope of the project
 
 8
-00:00:26.060 --> 00:00:27.370
-leave your ego at the door,
+00:00:23.640 --> 00:00:26.970
+is, so that you don't try to bring in things that don't belong in
 
 9
-00:00:27.370 --> 00:00:30.390
-don't take offense if somebody's a little bit nasty,
+00:00:26.970 --> 00:00:32.130
+the project, or at least without requesting that people consider it.
 
 10
-00:00:30.390 --> 00:00:32.840
-don't respond in kind and rely on
+00:00:32.130 --> 00:00:35.395
+See what communication methods the projects use.
 
 11
-00:00:32.840 --> 00:00:37.035
-more senior members of the community to deal with people like that,
+00:00:35.395 --> 00:00:36.950
+Usually, there's mailing lists,
 
 12
-00:00:37.035 --> 00:00:41.120
-encourage diversity. You'll be working with people in
+00:00:36.950 --> 00:00:40.240
+there are archives of mailing lists, so you can see the history,
 
 13
-00:00:41.120 --> 00:00:45.025
-projects from all over the world and you have to respect their cultures, etc.
+00:00:40.240 --> 00:00:43.645
+and maybe chat rooms that you can plug into.
 
 14
-00:00:45.025 --> 00:00:48.060
-We will have a whole topic on Continuous Integration methods,
+00:00:43.645 --> 00:00:45.990
+How are contributions made?
 
 15
-00:00:48.060 --> 00:00:51.510
-Continuous Integration, Delivery and Deployment,
+00:00:45.990 --> 00:00:49.190
+Are they done through revision control systems such as Git?
 
 16
-00:00:51.510 --> 00:00:54.080
-methods which are in wide use today to enable
+00:00:49.190 --> 00:00:52.370
+Are they done through email et cetera.
 
 17
-00:00:54.080 --> 00:00:56.950
-changes to rapidly propagate all the way to the end user,
+00:00:52.370 --> 00:00:54.070
+Learn the previous history.
 
 18
-00:00:56.950 --> 00:01:01.765
-sometimes within the day that changes are first proposed and work done.
+00:00:54.070 --> 00:00:58.040
+Many projects have veteran contributors who volunteer
 
 19
-00:01:01.765 --> 00:01:04.290
-Finally, we will talk about licensing issues.
+00:00:58.040 --> 00:01:02.345
+to serve as mentors to new participants in a project.
 
 20
-00:01:04.290 --> 00:01:07.635
-We'll talk about the two main classes of licenses,
+00:01:02.345 --> 00:01:07.535
+In the long run, this saves time for everybody and causes less friction.
 
 21
-00:01:07.635 --> 00:01:13.610
-permissive licenses, such as BSD, and more restrictive licenses, such as the GPL.
+00:01:07.535 --> 00:01:14.430
+Before beginning to code, it's often good to volunteer your services for testing,
 
 22
-00:01:13.610 --> 00:01:18.740
-We'll talk about the implications you have when you choose a particular license,
+00:01:14.430 --> 00:01:15.880
+finding bugs, et cetera.
 
 23
-00:01:18.740 --> 00:01:21.675
-what should be important in your choice of a license,
+00:01:15.880 --> 00:01:19.745
+This is one place that projects are often short on help.
 
 24
-00:01:21.675 --> 00:01:27.240
-and we'll have an exercise where you get to do some work on trying to figure that out.
+00:01:19.745 --> 00:01:24.875
+Don't use the project to learn a programming language or a scripting language,
+
+25
+00:01:24.875 --> 00:01:26.750
+or at least don't ask for help for that.
+
+26
+00:01:26.750 --> 00:01:28.910
+That's not what the project is doing.
+
+27
+00:01:28.910 --> 00:01:35.650
+It's important to ask for review and suggestions early when you start to contribute,
+
+28
+00:01:35.650 --> 00:01:39.490
+and don't wait too long and then dump a lot of
+
+29
+00:01:39.490 --> 00:01:43.245
+work on people at once, since they will not be able to digest it.
+
+30
+00:01:43.245 --> 00:01:49.610
+Being polite, respectful, avoiding contentious discussions, and certainly not using
+
+31
+00:01:49.610 --> 00:01:56.445
+obscenities, or other bad behavior, and trolling is important to take into account.
+
+32
+00:01:56.445 --> 00:01:59.255
+The project has its own DNA.
+
+33
+00:01:59.255 --> 00:02:02.340
+There's already an established community and ethos,
+
+34
+00:02:02.340 --> 00:02:04.135
+there's a leadership structure.
+
+35
+00:02:04.135 --> 00:02:06.425
+Make sure you understand what it is.
+
+36
+00:02:06.425 --> 00:02:08.150
+Know where the project came from.
+
+37
+00:02:08.150 --> 00:02:10.190
+Has it changed a lot since it began?
+
+38
+00:02:10.190 --> 00:02:13.055
+Is this a large project, a small project?
+
+39
+00:02:13.055 --> 00:02:20.090
+Is it very active, or is it pretty much quiet, with sporadic burst of activity?
+
+40
+00:02:20.090 --> 00:02:23.440
+Does it have a collective or singular governance structure?
+
+41
+00:02:23.440 --> 00:02:26.150
+In other words, is there like a committee that decides everything?
+
+42
+00:02:26.150 --> 00:02:29.550
+Or one or two individuals that make the final decisions?
+
+43
+00:02:29.550 --> 00:02:33.750
+What kind of license does the project use for its software?
+
+44
+00:02:33.750 --> 00:02:36.980
+Does it require contributors to sign an
+
+45
+00:02:36.980 --> 00:02:40.960
+agreement and signing their rights or does it not?
+
+46
+00:02:40.960 --> 00:02:46.890
+Remember, most open source projects start out nicely and never really take off.
+
+47
+00:02:46.890 --> 00:02:51.170
+It takes a particular opportunity of
+
+48
+00:02:51.170 --> 00:02:53.240
+a need for project, as well as
+
+49
+00:02:53.240 --> 00:02:56.795
+good governance and good contributors to make something succeed.
+
+50
+00:02:56.795 --> 00:02:59.210
+Most projects fail, but that's fine.
+
+51
+00:02:59.210 --> 00:03:05.270
+Most contributors get involved in open source projects because they have a reason to.
+
+52
+00:03:05.270 --> 00:03:10.235
+There may be some bug or a problem that interferes with their use.
+
+53
+00:03:10.235 --> 00:03:14.970
+They want to learn or add some new functions to their work.
+
+54
+00:03:14.970 --> 00:03:17.235
+Or they just want to learn something new.
+
+55
+00:03:17.235 --> 00:03:19.490
+So, it's very important to figure out what
+
+56
+00:03:19.490 --> 00:03:22.500
+itch you want to scratch when you join a project.
+
+57
+00:03:22.500 --> 00:03:30.000
+There's often a list of relatively simple cleanup things to do or other simple tasks,
+
+58
+00:03:30.000 --> 00:03:32.210
+sometimes called a janitor's list.
+
+59
+00:03:32.210 --> 00:03:35.435
+This is a good thing for people to do when they start.
+
+60
+00:03:35.435 --> 00:03:39.265
+It's also important that you shouldn't just start with
+
+61
+00:03:39.265 --> 00:03:44.410
+trivial patches, that maybe change white space in code or other things.
+
+62
+00:03:44.410 --> 00:03:46.270
+While these things will be accepted,
+
+63
+00:03:46.270 --> 00:03:49.990
+it's very hard to find people who eventually went on to
+
+64
+00:03:49.990 --> 00:03:56.280
+become important contributors who started out with this trivial work.
+
+65
+00:03:57.160 --> 00:04:03.125
+So, that's beginning to talk about how you should work in an open source project.
+
+66
+00:04:03.125 --> 00:04:05.930
+We will get into more detail shortly.

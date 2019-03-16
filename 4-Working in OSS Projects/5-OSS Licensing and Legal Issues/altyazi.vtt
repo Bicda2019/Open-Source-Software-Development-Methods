@@ -2,205 +2,204 @@ WEBVTT
 
 1
 00:00:00.020 --> 00:00:06.440
-We're going to have a brief discussion of open source software licenses and some of the legal issues involved
+Açık kaynak kodlu yazılım lisansları ve bunlara dahil olan bazı yasal konular ve ürününüz için 
 
 2
 00:00:06.440 --> 00:00:10.600
-and how you determine what kind of license is appropriate for your product.
+ne tür bir lisansın uygun olduğunu nasıl belirleyeceğinize dair kısa bir tartışma yapacağız
 
 3
 00:00:10.600 --> 00:00:15.380
-There are many kinds of open source software licenses,
+Çok çeşitli açık kaynaklı yazılım lisansları vardır,,
 
 4
 00:00:15.380 --> 00:00:19.939
-but they fall into two general categories restrictive versus permissive.
+ama restrictive(kısıtlayıcı) ve permissive(serbest) olarak 2 kategoriye ayrılır.
 
 5
 00:00:19.940 --> 00:00:25.420
-What you choose will depend on both the needs of your project and your philosophy.
+Seçtiğiniz şey hem projenizin ihtiyaçlarına hem de felsefenize bağlı olacaktır.
 
 6
 00:00:25.420 --> 00:00:29.040
-In a restrictive license, the software remains open,
+Kısıtlayıcı (restrictive) bir lisansta, yazılım açık kalır, ancak 
 
 7
 00:00:29.040 --> 00:00:35.160
-but there are strong limitations on any attempt to make closed products which depend on your software.
+yazılımınıza bağlı olarak kapalı ürünler yapma girişimlerinde güçlü kısıtlamalar vardır.
 
 8
 00:00:35.160 --> 00:00:41.980
-Any changes to the code actively made available to future recipients in a way they can rebuild their product.
+Kodda yapılacak herhangi bir değişiklik, gelecekteki alıcılara, ürünlerini yeniden oluşturabilecekleri şekilde aktif hale getirildi.
 
 9
 00:00:41.980 --> 00:00:48.320
-The most prominent example is the GPL, the General Public License from the Free Software Foundation,
+En belirgin örnek, bir copyleft lisansı olarak da bilinen Özgür Yazılım Vakfı'nın
 
 10
 00:00:48.320 --> 00:00:51.140
-which is also known as a copyleft license.
+Genel Kamu Lisansı olan GPL'dir.
 
 11
 00:00:51.140 --> 00:00:55.100
-The Linux kernel is released under a GPL license.
+Linux çekirdeği bir GPL lisansı altında yayınlanır.
 
 12
 00:00:55.100 --> 00:01:02.620
-Permissive licenses, in general, don't require modifications and enhancements to become generally available,
+Genel olarak serbest(Permissive) lisanslar, tescilli bir ürün olarak kullanılsa bile genek kullanımda
 
 13
 00:01:02.620 --> 00:01:04.780
-even if it's used as a proprietary product.
+olması için değişiklik ve iyileştirmeler beklemez.
 
 14
 00:01:04.780 --> 00:01:11.800
-Prominent examples are the BSD and the Apache licenses.
+Öne çıkan örnekler BSD ve Apache lisanslarıdır.
 
 15
 00:01:11.800 --> 00:01:16.120
-So, you have to be careful how you choose a license.
+Bir lisansı nasıl seçtiğinize dikkat etmelisiniz.
 
 16
 00:01:16.120 --> 00:01:21.580
-It's a very important decision. It's good to have a thorough discussion early in the development of a project,
+Bu çok önemli bir karardır. Bir projenin geliştirilmesinde erkenden bu konuda kapsamlı bir tartışma yapmak iyidir,,
 
 17
 00:01:21.580 --> 00:01:25.980
-because switching to a different license later can be rather difficult,
+çünkü daha sonra farklı bir lisansa geçmek, özellikle hakları olan 
 
 18
 00:01:25.980 --> 00:01:32.220
-especially if there are many contributors who have rights and have different opinions about what should happen.
+ve ne olması gerektiği hakkında farklı fikirleri olan birçok katılımcı varsa, oldukça zor olabilir.
 
 19
 00:01:34.340 --> 00:01:40.260
-There is a lot of misinformation spread about open source software licenses.
+Açık kaynaklı yazılım lisansları hakkında birçok yanlış bilgi bulunmaktadır.
 
 20
 00:01:40.260 --> 00:01:46.420
-This falls under the general category of FUD, or Fear, Uncertainty, and Doubt.
+Bu, genel FUD (Fear, Uncertainty, and Doubt) yani Korku, Belirsizlik ve Şüphe kategorisine girer..
 
 21
 00:01:46.420 --> 00:01:50.980
-This term actually goes way back as far as the 1920s,
+Bu terim aslında 1920lere kadar uzanıyor.
 
 22
 00:01:50.980 --> 00:01:55.920
-but the FUD acronym seems to first be used in the 1970s.
+ancak FUD kısaltması ilk olarak 1970'lerde kullanılıyor gibi görünüyor.
 
 23
 00:01:55.920 --> 00:02:06.740
-It means disseminating misinformation to influence people to avoid products and strategies and classes of products by appealing to their fear.
+FUD; yanlış bilgi yayarak insanları ürünlerden ve ürün strateji ve sınıflarından uzak durmaları için korkutmak anlamına gelir.
 
 24
 00:02:06.740 --> 00:02:12.840
-Microsoft was widely accused of spreading FUD about Linux in the 1990s.
+Microsoft, 1990'larda Linux hakkında FUD yaymakla suçlandı.
 
 25
 00:02:12.840 --> 00:02:18.920
-However, most people, but not all, would agree that Microsoft has stopped doing so,
+Bununla birlikte, çoğu insan, hepsi değil, Microsoft’un bunu yapmayı bıraktığını kabul eder
 
 26
 00:02:18.920 --> 00:02:26.440
-and it's actually definitely employing open source software widely in their product base today.
+aslında bugün kesinlikle ürünlerinde yaygın olarak açık kaynak kodlu yazılım kullanmaktadır.
 
 27
 00:02:26.440 --> 00:02:32.560
-So, why is the statements that FUD make generally false?
+Neden FUD’un ifadeleri genellikle yanlıştır?
 
 28
 00:02:32.560 --> 00:02:35.280
-A prominent one is that OSS is a virus.
+Bu ifadelerden en bilinenlerden biri, OSS'nin bir virüs olmasıdır.
 
 29
 00:02:35.280 --> 00:02:42.900
-In other words, if you use any open source software in your product, you will have to open up the source to your entire product.
+Başka bir deyişle, ürününüzde açık kaynak kodlu bir yazılım kullanıyorsanız,  ürününüzün kaynağını açmanız gerekecektir söylentisi.
 
 30
 00:02:42.900 --> 00:02:50.440
-This is not true. Many prominent companies have learned how to both combine open and closed software in their offerings.
+Bu doğru değildir. Birçok önde gelen şirket, tekliflerinde hem açık hem de kapalı yazılımları nasıl birleştireceklerini öğrendi.
 
 31
 00:02:50.450 --> 00:02:55.170
-There's a lot of experience with this. So, it's really untrue.
+Bununla ilgili çok fazla deneyim vardır. Yani, gerçekten bu doğru değildir
 
 32
 00:02:55.170 --> 00:03:01.840
-The second one is that open source software infringes on software and patent rights,
+İkincisi, açık kaynaklı yazılımın yazılım ve patent haklarını ihlal etmesidir,
 
 33
 00:03:01.840 --> 00:03:05.160
-and forces you to give patent rights to others.
+OSS sizi başkalarına patent hakkı vermeye zorlar.
 
 34
 00:03:05.160 --> 00:03:10.200
-Once again, you need proper legal analysis, but it certainly is not generally true.
+ve uygun bir yasal analize ihtiyacınız vardır, ancak bu kesinlikle doğru değildir.
 
 35
 00:03:10.200 --> 00:03:19.300
-A third one is that open source products do not offer you help when things break or if you need a technical support.
+Üçüncüsü, açık kaynaklı ürünlerin, sorun çıktığında veya teknik desteğe ihtiyacınız olduğunda size yardım sunmadığıdır.
 
 36
 00:03:19.300 --> 00:03:27.720
-That's absolutely untrue. Many open source products are supported by serious mature long living companies such as Red Hat Enterprise Linux,
+Bu kesinlikle doğru değildir. Birçok açık kaynaklı ürün, Red Hat Enterprise Linux gibi ciddi,olgun,uzun ömürlü şirketler tarafından desteklenmektedir,
 
 37
 00:03:27.720 --> 00:03:31.700
-as well as many smaller organizations, and there's a lot of freely available
+ayrıca birçok küçük kuruluşun yanı sıra çevrimiçi olarak ve ücretsiz olarak erişilebilen   
 
 38
 00:03:31.700 --> 00:03:37.400
-help online and communities that can support you and help you solve your problems.
+sizi destekleyebilecek sorunlarınızı çözmenize yardımcı olabilecek topluluklar vardır.
 
 39
 00:03:37.400 --> 00:03:47.260
-And finally, open source software requires a lot of legal help to avoid pitfalls, such as the statements we just discussed,
+Ve nihayet, açık kaynaklı yazılım tehlikeleri önlemek için çok fazla yasal yardım gerektirir,,
 
 40
 00:03:47.260 --> 00:03:51.380
-and so, therefore, it gets very expensive.
-This is nonsense.
+bu nedenle, çok pahalı olur. Bu saçmalıktır.
 
 41
 00:03:51.380 --> 00:03:59.840
-Even proprietary software requires significant legal analysis to properly avoid copyright and patent infringement and other problems.
+Tescilli yazılımlar bile telif hakkı ve patent ihlali ve diğer sorunlardan sakınmak için önemli yasal analizler gerektirir.
 
 42
 00:03:59.840 --> 00:04:03.200
-In fact, open source software sometimes makes it easier,
+Aslında, açık kaynaklı yazılım bazen bunu kolaylaştırır,,
 
 43
 00:04:03.200 --> 00:04:06.400
-since everybody can see what the actual software is.
+Çünkü herkes asıl yazılımın ne olduğunu görebilir.
 
 44
 00:04:06.400 --> 00:04:11.260
-You can quickly catch any things which might present legal problems.
+Yasal sorunlara yol açabilecek şeyleri hızlı bir şekilde yakalayabilirsiniz.
 
 45
 00:04:11.260 --> 00:04:16.340
-So, no matter what kind of product you have, you'll have to interact with lawyers.
+Bu yüzden, ne tür bir ürüne sahip olursanız olun, avukatlarla etkileşime girmeniz gerekecektir..
 
 46
 00:04:16.340 --> 00:04:24.720
-They may be on staff, they may be external, but somebody will have to make sure you're not violating copyrights and licenses.
+Kadrolu olabilirler, dışarıda olabilirler, ancak birilerinin telif haklarını ve lisansları ihlal etmediğinizden emin olması gerekir..
 
 47
 00:04:24.720 --> 00:04:26.440
-There are many kinds of licenses.
+Çok çeşitli lisans vardır.
 
 48
 00:04:26.440 --> 00:04:36.370
-You should make careful decisions, but once it's put in your DNA of the product, of the project and the product, that's pretty straight forward to respect that.
+Dikkatli kararlar vermelisiniz, ancak bir kez ürünün ve projenin  DNA'sına konulduktan sonra, buna saygı gösterilmesi oldukça kolaydır.
 
 49
 00:04:36.370 --> 00:04:43.840
-Part of this training is making sure developers understand what the do's and don'ts of working with open source software is,
+Bu eğitimin bir parçası, geliştiricilerin açık kaynak kodlu yazılımla çalışmanın ne yaptığını ve ne yapmadığını anlamalarını sağlamaktır.,
 
 50
 00:04:43.840 --> 00:04:53.360
-So they don't accidentally or ignorantly violate rules and incorporate things in their source, in their product which shouldn't be there.
+Bu yüzden, yanlışlıkla ya da cahil bir şekilde kuralları ihlal edilmez ve yazılımlarına, orada olmaması gereken ürünleri dahil edilmez.
 
 51
 00:04:53.360 --> 00:05:00.160
-So, that's briefly just a few of the issues that are involved in open source licensing.
+Yani, bu kısaca açık kaynaklı lisanslama ile ilgili sorunlardan sadece birkaçıdır
