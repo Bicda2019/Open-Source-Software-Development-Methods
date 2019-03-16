@@ -9,27 +9,27 @@ işler gerçekten çok hızlı ilerliyor.
 
 3
 00:00:09.000 --> 00:00:15.460
-Ayrıca, olabildiğince hatasız veya güvenlik sorunsuz,
+Ayrıca, olabildiğince hatasız veya güvenli
 
 4
-00:00:15.460 --> 00i:00:19.761
-yazılım düzeltmelerinin, güncellemelerinin ve yeni yazılımların
+00:00:15.460 --> 00:00:19.761
+Yazılım düzeltmelerinin, güncellemelerinin ve yeni yazılımların
 
 5
 00:00:19.761 --> 00:00:23.970
-Hazırlanması ve olabildiğince çabuk hatasız yayınlanması önemlidir
+hazırlanması ve olabildiğince çabuk hatasız yayınlanması önemlidir.
 
 6
 00:00:26.585 --> 00:00:33.323
-Sürekli Bütünleşme kavramının devreye girdiği yer burasıdır. Yazılımın aynı lokasyondaki
+Sürekli Entegrasyon kavramının devreye girdiği yer burasıdır.
 
 7
 00:00:33.323 --> 00:00:35.899
-Birbirleri ile sık ve direkt iletişime geçebilen
+Önceleri aynı lokasyonda, birbirleri ile sık ve direkt iletişime geçebilen
 
 8
 00:00:35.899 --> 00:00:40.618
-Bir veya birkaç kişinin yazılım gelitirdiği zamanlar vardı
+bir veya birkaç kişinin yazılım geliştirdiği zamanlar vardı.
 
 9
 00:00:40.618 --> 00:00:45.074
@@ -45,11 +45,11 @@ aynı zamanda birden fazla katılımcının bir proje üzerinde aynı anda
 
 12
 00:00:53.569 --> 00:00:59.089
-Çakışmadan uyumlu çalışmasına olanak tanıyan
+çakışmadan uyumlu çalışmasına olanak tanıyan
 
 13
 00:00:59.089 --> 00:01:04.605
-revizyon kontrol sistemleri  geliştirmek önemliydi
+revizyon kontrol sistemleri geliştirmek önemliydi
 
 14
 00:01:04.605 --> 00:01:08.010
@@ -57,11 +57,11 @@ Bunu yapmak için, bir projenin ana kopyasını saklayan
 
 15
 00:01:08.010 --> 00:01:10.354
-merkezi bir depo oluşturulmuştur.
+merkezi bir depo oluşturuldu.
 
 16
 00:01:10.354 --> 00:01:14.884
-Ardından bu kopyayı bilgisayarlarına çekebilir, değişiklik yapabilir
+Geliştiriciler bu kopyayı bilgisayarlarına çekebilir, değişiklik yapabilir
 
 17
 00:01:14.884 --> 00:01:16.144
@@ -69,7 +69,7 @@ sonra tekrar ana kopyaya bunları gönderebilirdi.
 
 18
 00:01:16.844 --> 00:01:21.086
-Iki kişinin aynı anda aynı şeyi çalışması sorunu oldukça özeldi
+İki kişinin aynı anda, aynı şeyi çalışması sorunu oldukça spesifikti
 
 19
 00:01:21.086 --> 00:01:23.733
@@ -81,7 +81,7 @@ insanlar bunun için teknikler geliştirdiler.
 
 21
 00:01:28.047 --> 00:01:33.057
-llk gerçekten büyük da+AR8BMQ-tık geliştirme projesi, Linux çekirdeği oldu
+İlk büyük dağıtık geliştirme projesi, Linux çekirdeği oldu
 
 22
 00:01:33.657 --> 00:01:36.087
@@ -97,11 +97,11 @@ Git revizyon kontrol sistemi, bu tür dağıtılmış geliştirmeyi
 
 25
 00:01:44.915 --> 00:01:48.120
-rasyonelleştirmek için Linus Torvalds tarafından icat edildi.
+rasyonelleştirmek için Linus Torvalds tarafından yapıldı.
 
 26
 00:01:50.290 --> 00:01:55.430
-Fakat bir revizyon kontrol sistem işlerin gerçekten 
+Fakat sadece bir revizyon kontrol sistem işlerin gerçekten 
 
 27
 00:01:55.430 --> 00:01:57.260
@@ -113,7 +113,7 @@ Bir projenin farklı bölümlerinde farklı lokasyonlarda farklı görüşlerde 
 
 29
 00:02:00.876 --> 00:02:04.519
-bir ağ kurmalı ve çatışma olmamalıdır
+bir ağ kurulmalı ve çatışma olmamalıdır.
 
 30
 00:02:04.519 --> 00:02:09.519
@@ -121,23 +121,23 @@ Ve bir problemi çözmek başka bir alanda başka bir problem yaratmamalıdır, 
 
 31
 00:02:09.519 --> 00:02:12.364
-Bunu yapabilmek için test yaptırmanız gerekir
+Bunu sağlamak için test yapmak 
 
 32
 00:02:13.364 --> 00:02:18.532
-Bu yüzden test yapıyorsanız, aynı anda birbiriyle çakışan değişiklikleri uygulayabilir misiniz?
+ve bazı soruları göz önünde bulundurmak gerekir:
 
 33
 00:02:18.532 --> 00:02:24.808
-gibi birkaç soruyu göz önünde bulundurmanız gerekir.
+Aynı anda birbiriyle çakışan değişiklikleri nasıl test edeceksiniz? 
 
 34
 00:02:24.808 --> 00:02:28.540
-Çatışıyorlar(conflict) mı? Eğer öyleyse, bu çatışmaları nasıl çözersiniz?
+Çakışma(conflict) var mı? Eğer öyleyse, bu çakışmaları nasıl çözersiniz?
 
 35
 00:02:29.040 --> 00:02:31.260
-Proje bu durumda hala derleniyor mu?
+Değişiklerden sonra proje derleniyor mu?
 
 36
 00:02:31.260 --> 00:02:35.300
@@ -149,18 +149,19 @@ Peki ya olası hedefler? Bir projede çalışan birçok insan
 
 38
 00:02:40.040 --> 00:02:43.160
-yalnızca bir tür mimaride veya bir tür cihazda çal+ATEBXwEx-r
+yalnızca bir tür mimaride veya bir tür cihazda mı çalışır?
 
 39
 00:02:44.920 --> 00:02:48.230
-Çalışmanın ne demek olduğunu tanımlamak zorundasınız.
+Çalışmayı tanımlamak zorundasınız.
 
 40
 00:02:49.030 --> 00:02:52.210
-+ATABXw-lerin gerçekten çalıştığından emin olmak ve işlerin iyi olduğuna dair
+Projenin gerçekten çalıştığından emin olmak ve işlerin iyi olduğuna dair
+
 41
 00:02:52.210 --> 00:02:56.020
-iraz güven vermek için temsili bir iş yüküyle
+güven vermek için temsili bir iş yüküyle
 
 42
 00:02:56.020 --> 00:02:58.549
@@ -168,7 +169,7 @@ kullanılabilecek iyi test paketleri var mı?
 
 43
 00:02:59.680 --> 00:03:04.866
-Sürekli Entegrasyon tekniklerinin yaptığı şey, sürekli ve sık sık test etmenizi sağlamak 
+Sürekli Entegrasyon tekniklerinin yaptığı şey, sürekli ve sık sık test etmenizi, 
 
 44
 00:03:04.866 --> 00:03:09.907
@@ -176,11 +177,12 @@ oluşan sorunları hızla çözerek
 
 45
 00:03:09.907 --> 00:03:13.044
-geliştiriciler ve kullanıcıların hemfikir olması sağlar.
+geliştiriciler ve kullanıcıların aynı sayfada olmasını sağlamaktır.
 
 46
 00:03:15.422 --> 00:03:20.892
 Genellikle Sürekli Entegrasyon 3 ayrı aşamaya ayrılır.
+
 47
 00:03:21.192 --> 00:03:26.276
 Sürekli Entegrasyon, Sürekli Teslimat(Delivery) ve Sürekli Dağıtım(Deployment) 
@@ -195,26 +197,27 @@ mümkün olduğunca çok sayıda platform, yazılım veya donanım varyasyonuyla
 
 50
 00:03:36.838 --> 00:03:42.171
-Yazılımın otomatik derlenmesi ve inşası Sürekli Entegrasyon ile sağlanır,
+yazılımın otomatik derlenmesi ve inşası Sürekli Entegrasyon ile sağlanır,
 
 51
 00:03:42.171 --> 00:03:46.823
-Böylece herhangi bir çatışma daha kötüleşecek kadar  büyümeden önlenir.
+Böylece herhangi bir çatışma daha kötüleşecek kadar büyümeden önlenir.
 
 52
 00:03:47.823 --> 00:03:52.823
-Sürekli Teslimat aşaması +ADs- tümleşik değişiklik yaptığınızda, hızlı ve otomatik,
+Sürekli Teslimat aşaması demek tümleşik değişiklik yaptığınızda, hızlı ve otomatik,
 
 53
 00:03:52.823 --> 00:03:58.023
-bir teslimat(delivery) veya yayın(release) işleminin gerçekleşmesi demektir. 
+bir teslimat(delivery) veya yayın(release) işleminin de gerçekleşmesi demektir. 
+
 54
 00:03:58.023 --> 00:04:03.033
-yazılımın tüketicileri için de aynı şekilde piyasaya sürülmesidir.
+Yazılımın tüketicileri için de aynı şekilde piyasaya sürülmesidir.
 
 55
 00:04:03.033 --> 00:04:05.076
-Bu tüketicilere bu yazılımı son kullanıcıya da+AR8BMQ-tan.
+Bu tüketicilere bu yazılımı son kullanıcıya dağıtan.
 
 56
 00:04:05.076 --> 00:04:09.273
@@ -222,7 +225,8 @@ Bu tüketicilere bu yazılımı son kullanıcıya da+AR8BMQ-tan.
 
 57
 00:04:09.673 --> 00:04:13.099
-Ve bu üçüncü aşamada, Sürekli Dağıtım(Deployment) da yapılır.
+Ve bu üçüncü aşamada, Sürekli Dağıtım(Deployment) yapılır.
+
 58
 00:04:13.099 --> 00:04:16.379
 Yani bu asıl ürünü müşterilere bıraktığınız süreçtir.
@@ -230,13 +234,14 @@ Yani bu asıl ürünü müşterilere bıraktığınız süreçtir.
 59
 00:04:17.660 --> 00:04:22.921
 Bazen Sürekli Entegrasyon üç fazın da bir araya gelmesi anlamına gelir
+
 60
 00:04:22.921 --> 00:04:25.498
-Teslimat ve  Dağıtımı da içerir
+Teslimat ve Dağıtımı da içerir
 
 61
 00:04:27.291 --> 00:04:31.861
-İşte size her şeyin sürekli bir çemberde nasıl yürüdüğnü gösteren küçük bir grafik
+İşte size her şeyin sürekli bir çemberde nasıl yürüdüğünü gösteren küçük bir grafik
 
 62
 00:04:31.861 --> 00:04:37.159
@@ -244,15 +249,15 @@ Basamaklar arasındaki zaman boşluğu mümkün olduğu kadar sıfıra yakın ol
 
 63
 00:04:37.830 --> 00:04:43.473
-Bazı durumlarda, geliştirici değişiklikleri aynı gün içinde kullanıcılara ulaşabilir,
+Bazı durumlarda, geliştirici değişiklikleri aynı gün içinde kullanıcılara uşaltırabilir,
 
 64
 00:04:43.473 --> 00:04:48.292
-Hatta her şey çok temiz çalıştığında dakikalar ya da saatler içinde..
+hatta her şey çok temiz çalıştığında dakikalar ya da saatler içinde..
 
 65
 00:04:50.303 --> 00:04:54.986
-Şimdi, nispeten açık faydalarından bahsettik
+Şimdi, nispeten faydalarından bahsettik
 
 66
 00:04:54.986 --> 00:04:58.910
@@ -264,24 +269,27 @@ Eğer geliştiricilerin değişikliklerini sürekli olarak entegre etmesi gereki
 
 68
 00:05:03.266 --> 00:05:08.741
-Bu geliştiricilere olası bir baskıdır, +AMcA/A-nkü işlerini tamamen bitirmeden 
+Bu geliştiricilere olası bir baskıdır, çünkü işlerini tamamen bitirmeden 
 
 69
 00:05:08.741 --> 00:05:14.615
-işlerini sürekli olarak diğer insanlara vermek zorundadırlar.
+sürekli olarak diğer insanlara vermek zorundadırlar.
 
 70
 00:05:14.915 --> 00:05:19.046
 Tabii ki, yarar, yanlış bir yolda çok fazla gitmenin önlenmesidir.
+
 71
 00:05:19.046 --> 00:05:22.528
 Kötüleşmeden önce ve diğer insanların yolunu tıkamadan önce 
+
 72
 00:05:22.528 --> 00:05:24.210
-Hatalar yakalanır.
+hatalar yakalanır.
+
 73
 00:05:24.830 --> 00:05:29.978
-Diğer bir maliyet ise Sürekli Entegrasyon sunucusu olarak adlandırılan şeyi inşa etmenizdir.
+Diğer bir maliyet ise Sürekli Entegrasyon sunucusunu(server) inşa etmenizdir.
 
 74
 00:05:29.972 --> 00:05:32.921
@@ -297,27 +305,27 @@ Buradaki avantaj, her şeyin tamamen otomatik olmasıdır
 
 77
 00:05:42.660 --> 00:05:44.510
-Tüm işler önceden ve otomatik yapıldı için  .
+Tüm işler önceden ve otomatik yapıldı için
 
 78
 00:05:44.510 --> 00:05:48.250
-her seferinde sadece bir yazılım kurmak(build) zorunda değilsiniz 
+her seferinde sadece bir yazılım kurmak(build) zorunda değilsinizdir.
 
 79
 00:05:48.850 --> 00:05:53.823	
-Diğer bir maliyet ise testleri yapaca+AR8BMQ-nız, yazılımı kuraca+AR8BMQ-nız 
-80
+Diğer bir maliyet ise testleri yapacağınız, yazılımı kuracağınız
 
+80
 00:05:53.823 --> 00:05:57.441
-+IBw-script+IB0-lerin ve diğer araçların yazılması gerektiğidir.
+"script"lerin ve diğer araçların yazılması gerektiğidir.
 
 81
 00:05:57.441 --> 00:06:01.970
-Ve karma+AV8BMQ-k bir projeye böyle bir altyapı kurmak için çok fazla iş vardır.
+Karmaşık bir projeye böyle bir altyapı kurmak için çok fazla iş vardır.
 
 82
 00:06:01.970 --> 00:06:06.010
-Ancak bunun yararı, eskiden çalışt+ATEBHwEx-nız özelliklerde bulunan
+Ancak bunun yararı, eskiden çalışmalınızda görülen
 
 83
 00:06:06.010 --> 00:06:11.130
@@ -325,7 +333,7 @@ hataları veya gerileme olarak bilinenleri azaltmanızdır.
 
 84
 00:06:11.130 --> 00:06:14.920
-Bu süreci kısaltırsınız ve sürümleriniz daha hatasız olur.
+Bu süreci kısaltırsınız, sürümleriniz daha hatasız olur.
 
 85
 00:06:16.140 --> 00:06:20.351
